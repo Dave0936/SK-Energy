@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F1F1EF; -webkit-font-smoothing:antialiased; }
+  * { box-sizing:border-box; }
+  a { color:#0E1110; text-decoration:none; }
+  a:hover { color:#46531F; }
+</style>
+<script src="nav-menu.js"></script>
+</helmet>
+
+<div style="font-family:'Satoshi',system-ui,sans-serif;color:#0E1110;background:#F1F1EF;overflow-x:clip">
+  <section style="padding:12px 12px 0">
+    <div style="position:relative;background:#0E1110;border-radius:30px;overflow:hidden">
+      <header style="position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;flex-wrap:wrap">
+        <a href="index.html" aria-label="SK Energy home" style="display:flex;align-items:center"><img src="assets/sk-logo.svg" alt="SK Energy" style="height:38px;width:161px;flex:none;object-fit:contain;display:block"></img></a>
+        <nav style="display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.18);padding:6px;border-radius:999px;flex-wrap:wrap">
+          <a href="about.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">About</a>
+          <div data-svc-menu style="position:relative">
+            <button type="button" data-svc-toggle aria-expanded="false" aria-haspopup="true" style="color:rgba(255,255,255,.9);background:transparent;font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px;border:0;cursor:pointer;font-family:'Satoshi',sans-serif;display:flex;align-items:center;gap:6px" style-hover="background:#fff;color:#0E1110">Services <span data-svc-caret style="display:block;font-size:10px;line-height:1;transition:transform .2s ease">&#9662;</span></button>
+            <div data-svc-panel style="position:absolute;top:calc(100% + 12px);left:-120px;z-index:60;width:min(560px,calc(100vw - 32px));background:#fff;border-radius:22px;padding:10px;box-shadow:0 28px 70px -30px rgba(8,12,10,.7);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:4px;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-6px);transition:opacity .2s ease,transform .2s ease,visibility .2s">
+              <a href="service.html?slug=residential-solar" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Residential solar</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Panels and battery storage for your home</span></a>
+              <a href="service.html?slug=air-source-heat-pumps" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Air source heat pumps</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Low-carbon heating and hot water</span></a>
+              <a href="service.html?slug=ev-charge-points" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">EV charge points</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Home, workplace and fleet charging</span></a>
+              <a href="service.html?slug=commercial-solutions" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Commercial solutions</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Solar and storage for business sites</span></a>
+              <a href="service.html?slug=new-build-services" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">New build services</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Planned into your development</span></a>
+              <a href="service.html?slug=aftercare" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Aftercare</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Servicing, monitoring and support</span></a>
+            </div>
+          </div>
+          <a href="work.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Work</a>
+          <a href="news.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">News</a>
+          <a href="contact.html" style="color:#0E1110;background:#fff;font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px">Contact</a>
+        </nav>
+        <a href="contact.html" style="background:#CBF24C;color:#0E1110;font-weight:700;font-size:14px;padding:12px 22px;border-radius:999px" style-hover="background:#fff">Start a project</a>
+      </header>
+      <div style="max-width:1280px;margin:0 auto;padding:clamp(40px,6vw,88px) 22px clamp(36px,5vw,64px)">
+        <div style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:8px 15px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;justify-self:start;align-self:start"><span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>Start a project</div>
+        <h1 style="margin:20px 0 0;color:#fff;font-size:clamp(38px,5.8vw,84px);line-height:.98;letter-spacing:-.045em;font-weight:900;max-width:980px;text-wrap:balance">Tell us about your project.</h1>
+        <p style="margin:22px 0 0;color:rgba(255,255,255,.76);font-size:clamp(16px,1.5vw,20px);line-height:1.55;max-width:600px">Share a few details and our team will come back to you to discuss the next steps.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:1280px;margin:0 auto;padding:14px 12px 0">
+    <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start">
+      <div style="flex:999 1 560px;min-width:0">
+      <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+        <div style="background:#CBF24C;border-radius:24px;padding:clamp(28px,4vw,48px);display:flex;flex-direction:column;gap:14px;min-height:360px;justify-content:center">
+          <div style="width:52px;height:52px;border-radius:50%;background:#0E1110;color:#CBF24C;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900">&#10003;</div>
+          <h2 style="margin:6px 0 0;font-size:clamp(26px,3vw,40px);line-height:1.04;letter-spacing:-.04em;font-weight:900">Thanks — we've got your enquiry.</h2>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#3B4522;max-width:440px">A member of the team will be in touch shortly to talk through your property and the right next step.</p>
+          <button type="button" onClick="{{ reset }}" style="align-self:flex-start;margin-top:8px;background:#0E1110;color:#fff;border:0;border-radius:999px;padding:13px 22px;font-family:'Satoshi',sans-serif;font-size:14px;font-weight:700;cursor:pointer" style-hover="background:#fff;color:#0E1110">Send another</button>
+        </div>
+      </sc-if>
+      <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+        <form onSubmit="{{ onSubmit }}" style="background:#fff;border-radius:24px;padding:clamp(22px,3.4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:18px">
+          <label style="display:flex;flex-direction:column;gap:8px;min-width:0">
+            <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">First name</span>
+            <input type="text" name="firstName" placeholder="Jamie" required="{{ true }}" style="width:100%;background:#F1F1EF;border:1px solid transparent;border-radius:14px;padding:15px 16px;font-family:'Satoshi',sans-serif;font-size:15px;color:#0E1110;outline:none" style-focus="border-color:#0E1110;background:#fff"></input>
+          </label>
+          <label style="display:flex;flex-direction:column;gap:8px;min-width:0">
+            <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Last name</span>
+            <input type="text" name="lastName" placeholder="Robertson" required="{{ true }}" style="width:100%;background:#F1F1EF;border:1px solid transparent;border-radius:14px;padding:15px 16px;font-family:'Satoshi',sans-serif;font-size:15px;color:#0E1110;outline:none" style-focus="border-color:#0E1110;background:#fff"></input>
+          </label>
+          <label style="display:flex;flex-direction:column;gap:8px;min-width:0">
+            <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Email address</span>
+            <input type="email" name="email" placeholder="you@example.com" required="{{ true }}" style="width:100%;background:#F1F1EF;border:1px solid transparent;border-radius:14px;padding:15px 16px;font-family:'Satoshi',sans-serif;font-size:15px;color:#0E1110;outline:none" style-focus="border-color:#0E1110;background:#fff"></input>
+          </label>
+          <label style="display:flex;flex-direction:column;gap:8px;min-width:0">
+            <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Phone number <span style="text-transform:none;letter-spacing:0;font-weight:500">(optional)</span></span>
+            <input type="tel" name="phone" placeholder="07…" style="width:100%;background:#F1F1EF;border:1px solid transparent;border-radius:14px;padding:15px 16px;font-family:'Satoshi',sans-serif;font-size:15px;color:#0E1110;outline:none" style-focus="border-color:#0E1110;background:#fff"></input>
+          </label>
+          <div style="grid-column:1/-1;display:flex;flex-direction:column;gap:10px">
+            <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">I'm interested in</span>
+            <div style="display:flex;flex-wrap:wrap;gap:8px">
+              <sc-for list="{{ chips }}" as="c" hint-placeholder-count="6">
+                <button type="button" onClick="{{ c.toggle }}" aria-pressed="{{ c.pressed }}" style="border:1px solid rgba(14,17,16,.16);background:{{ c.bg }};color:#0E1110;border-radius:999px;padding:10px 16px;font-family:'Satoshi',sans-serif;font-size:14px;font-weight:500;cursor:pointer">{{ c.label }}</button>
+              </sc-for>
+            </div>
+          </div>
+          <label style="display:flex;flex-direction:column;gap:8px;grid-column:1/-1">
+            <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Project details</span>
+            <textarea name="details" rows="5" placeholder="Your property, what you'd like to achieve, and any timings." style="width:100%;background:#F1F1EF;border:1px solid transparent;border-radius:14px;padding:15px 16px;font-family:'Satoshi',sans-serif;font-size:15px;color:#0E1110;outline:none;resize:vertical" style-focus="border-color:#0E1110;background:#fff"></textarea>
+          </label>
+          <div style="grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid rgba(14,17,16,.1);padding-top:20px">
+            <p style="margin:0;font-size:12px;line-height:1.5;color:#6C7566;max-width:440px">When you send this form, Google reCAPTCHA is loaded to prevent spam. Google's Privacy Policy and Terms of Service apply.</p>
+            <button type="submit" style="background:#0E1110;color:#fff;border:0;border-radius:999px;padding:16px 28px;font-family:'Satoshi',sans-serif;font-size:15px;font-weight:700;cursor:pointer" style-hover="background:#CBF24C;color:#0E1110">Send enquiry</button>
+          </div>
+        </form>
+      </sc-if>
+      </div>
+      <aside style="flex:1 1 300px;min-width:0;display:flex;flex-direction:column;gap:14px">
+        <div style="background:#0E1110;color:#fff;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:22px">
+          <h2 style="margin:0;font-size:24px;line-height:1.1;letter-spacing:-.03em;font-weight:700">Prefer to get in touch directly?</h2>
+          <div><div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBF24C">Email</div><a href="mailto:customerservice@sk-energy.co.uk" style="display:block;margin-top:8px;color:#fff;font-size:16px;font-weight:700;word-break:break-word" style-hover="color:#CBF24C">customerservice@sk-energy.co.uk</a></div>
+          <div><div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBF24C">Office</div><p style="margin:8px 0 0;color:rgba(255,255,255,.8);font-size:15px;line-height:1.6">Suite 2, Abtel Building<br>Pitreavie Business Park<br>Pitreavie Drive<br>Dunfermline, Fife<br>KY11 8US</p></div>
+        </div>
+        <a href="warranty-registration.html" style="background:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:14px;color:#0E1110" style-hover="background:#CBF24C">
+          <span><span style="display:block;font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Existing customer?</span><span style="display:block;margin-top:6px;font-size:18px;font-weight:700;letter-spacing:-.02em">Register your warranty</span></span><span style="font-size:20px">&rarr;</span>
+        </a></aside>
+    </div>
+  </section>
+
+  <div style="height:72px"></div>
+  <footer style="padding:0 12px 12px">
+    <div style="background:#0E1110;border-radius:30px;padding:48px 28px 24px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:32px">
+        <div style="max-width:280px">
+          <img src="assets/sk-logo.svg" alt="SK Energy" style="height:29px;width:123px;flex:none;object-fit:contain;display:block"></img>
+          <p style="margin:16px 0 0;color:rgba(255,255,255,.58);font-size:14px;line-height:1.6">Suite 2, Abtel Building<br>Pitreavie Business Park<br>Dunfermline, Fife, KY11 8US</p>
+          <a href="mailto:customerservice@sk-energy.co.uk" style="display:block;margin-top:12px;color:#fff;font-size:14px" style-hover="color:#CBF24C">customerservice@sk-energy.co.uk</a>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Explore</div>
+          <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+            <a href="index.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Home</a>
+            <a href="about.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">About us</a>
+            <a href="contact.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Contact</a>
+            <a href="warranty-registration.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Warranty registration</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Services</div>
+          <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+            <a href="service.html?slug=residential-solar" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Residential solar</a>
+            <a href="service.html?slug=commercial-solutions" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Commercial solutions</a>
+            <a href="service.html?slug=ev-charge-points" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">EV charge points</a>
+            <a href="service.html?slug=air-source-heat-pumps" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Air source heat pumps</a>
+            <a href="service.html?slug=new-build-services" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">New build services</a>
+            <a href="service.html?slug=aftercare" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Aftercare</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Accredited</div>
+          <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px">
+            <img src="assets/mcs-w.png" alt="MCS certified" style="height:26px;width:83px;object-fit:contain;object-position:left;display:block"></img>
+            <img src="assets/trustmark-white.png" alt="TrustMark" style="height:21px;width:99px;object-fit:contain;object-position:left;display:block"></img>
+            <img src="assets/trustpilot-white.png" alt="Trustpilot" style="height:19px;width:78px;object-fit:contain;object-position:left;display:block"></img>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:44px;border-top:1px solid rgba(255,255,255,.12);padding-top:18px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between">
+        <span style="color:rgba(255,255,255,.45);font-size:13px">&copy; 2026 SK Energy. All rights reserved.</span>
+        <a href="#" style="color:rgba(255,255,255,.45);font-size:13px" style-hover="color:#CBF24C">Privacy policy</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { sent: false, picked: [] };
+  renderVals() {
+    const opts = ["Residential solar","Battery storage","Air source heat pump","EV charge point","Commercial","New build"];
+    const picked = this.state.picked;
+    return {
+      sent: this.state.sent,
+      notSent: !this.state.sent,
+      chips: opts.map((label) => {
+        const on = picked.includes(label);
+        return { label, pressed: on ? 'true' : 'false', bg: on ? '#CBF24C' : '#fff',
+          toggle: () => this.setState((s) => ({ picked: s.picked.includes(label) ? s.picked.filter((x) => x !== label) : s.picked.concat(label) })) };
+      }),
+      onSubmit: (e) => { e.preventDefault(); this.setState({ sent: true }); window.scrollTo({ top: 0, behavior: 'smooth' }); },
+      reset: () => this.setState({ sent: false, picked: [] }),
+    };
+  }
+}
+</script>
+</body>
+</html>

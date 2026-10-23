@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F1F1EF; -webkit-font-smoothing:antialiased; }
+  * { box-sizing:border-box; }
+  a { color:#0E1110; text-decoration:none; }
+  a:hover { color:#46531F; }
+</style>
+<script src="nav-menu.js"></script>
+<script src="cms/config.js"></script>
+<script src="cms/sanity.js"></script>
+</helmet>
+
+<div style="font-family:'Satoshi',system-ui,sans-serif;color:#0E1110;background:#F1F1EF;overflow-x:clip">
+
+  <sc-if value="{{ ready }}" hint-placeholder-val="{{ false }}">
+  <section style="padding:12px 12px 0">
+    <div style="background:#0E1110;border-radius:30px;overflow:hidden">
+      <header style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;flex-wrap:wrap">
+        <a href="index.html" aria-label="SK Energy home" style="display:flex;align-items:center">
+          <img src="assets/sk-logo.svg" alt="SK Energy" style="height:38px;width:161px;flex:none;object-fit:contain;display:block"></img>
+        </a>
+        <nav style="display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.18);padding:6px;border-radius:999px;flex-wrap:wrap">
+          <a href="about.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">About</a>
+          <div data-svc-menu style="position:relative">
+            <button type="button" data-svc-toggle aria-expanded="false" aria-haspopup="true" style="color:rgba(255,255,255,.9);background:transparent;font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px;border:0;cursor:pointer;font-family:'Satoshi',sans-serif;display:flex;align-items:center;gap:6px" style-hover="background:#fff;color:#0E1110">Services <span data-svc-caret style="display:block;font-size:10px;line-height:1;transition:transform .2s ease">&#9662;</span></button>
+            <div data-svc-panel style="position:absolute;top:calc(100% + 12px);left:-120px;z-index:60;width:min(560px,calc(100vw - 32px));background:#fff;border-radius:22px;padding:10px;box-shadow:0 28px 70px -30px rgba(8,12,10,.7);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:4px;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-6px);transition:opacity .2s ease,transform .2s ease,visibility .2s">
+              <a href="service.html?slug=residential-solar" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Residential solar</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Panels and battery storage for your home</span></a>
+              <a href="service.html?slug=air-source-heat-pumps" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Air source heat pumps</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Low-carbon heating and hot water</span></a>
+              <a href="service.html?slug=ev-charge-points" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">EV charge points</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Home, workplace and fleet charging</span></a>
+              <a href="service.html?slug=commercial-solutions" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Commercial solutions</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Solar and storage for business sites</span></a>
+              <a href="service.html?slug=new-build-services" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">New build services</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Planned into your development</span></a>
+              <a href="service.html?slug=aftercare" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Aftercare</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Servicing, monitoring and support</span></a>
+            </div>
+          </div>
+          <a href="work.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Work</a>
+          <a href="news.html" style="color:#0E1110;background:#fff;font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px">News</a>
+          <a href="contact.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Contact</a>
+        </nav>
+        <a href="contact.html" style="background:#CBF24C;color:#0E1110;font-weight:700;font-size:14px;padding:12px 22px;border-radius:999px" style-hover="background:#fff">Start a project</a>
+      </header>
+
+      <div style="max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,96px) 22px clamp(36px,5vw,64px)">
+        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.7)">
+          <a href="news.html" style="color:rgba(255,255,255,.7)" style-hover="color:#CBF24C">News &amp; insights</a><span style="opacity:.5">/</span><span style="color:#CBF24C">{{ post.category }}</span>
+        </div>
+        <h1 style="margin:22px 0 0;color:#fff;font-size:clamp(36px,5.6vw,80px);line-height:1;letter-spacing:-.045em;font-weight:900;max-width:1060px;text-wrap:balance">{{ post.title }}</h1>
+        <p style="margin:22px 0 0;color:rgba(255,255,255,.76);font-size:clamp(17px,1.6vw,21px);line-height:1.5;max-width:680px;text-wrap:pretty">{{ post.excerpt }}</p>
+        <div style="margin-top:34px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px;border-top:1px solid rgba(255,255,255,.14);padding-top:22px">
+          <div style="display:flex;align-items:center;gap:12px">
+            <span style="width:40px;height:40px;border-radius:50%;background:#CBF24C;color:#0E1110;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:13px">{{ initials }}</span>
+            <span><span style="display:block;color:#fff;font-weight:700;font-size:15px">{{ post.author.name }}</span><span style="display:block;color:rgba(255,255,255,.56);font-size:13px">{{ post.author.role }}</span></span>
+          </div>
+          <span style="color:rgba(255,255,255,.7);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">{{ dateLabel }}</span>
+          <span style="color:rgba(255,255,255,.7);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">{{ post.readTime }} min read</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:12px 12px 0">
+    <figure style="margin:0;border-radius:30px;overflow:hidden;aspect-ratio:21/9;min-height:280px;background:#E8E8E5;position:relative">
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ post.mainImage.url }}" alt="{{ post.mainImage.alt }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block"></img>
+    </figure>
+  </section>
+
+  <article style="max-width:1280px;margin:0 auto;padding:64px 24px 0;display:flex;flex-wrap:wrap;gap:32px 56px;align-items:flex-start">
+    <aside style="flex:1 1 220px;max-width:300px;align-self:stretch">
+      <div style="position:sticky;top:24px;display:flex;flex-direction:column;gap:18px">
+      <div style="background:#fff;border-radius:22px;padding:20px;display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid rgba(14,17,16,.1);padding-bottom:10px"><span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Topic</span><span style="font-size:13px;font-weight:700">{{ post.category }}</span></div>
+        <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid rgba(14,17,16,.1);padding-bottom:10px"><span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Published</span><span style="font-size:13px;font-weight:700">{{ dateLabel }}</span></div>
+        <div style="display:flex;justify-content:space-between;gap:10px"><span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Read</span><span style="font-size:13px;font-weight:700">{{ post.readTime }} min</span></div>
+      </div>
+      <button type="button" onClick="{{ copyLink }}" style="background:#0E1110;color:#fff;border:0;border-radius:999px;padding:13px 20px;font-family:'Satoshi',sans-serif;font-size:14px;font-weight:700;cursor:pointer" style-hover="background:#CBF24C;color:#0E1110">{{ copyLabel }}</button>
+      </div>
+    </aside>
+
+    <div style="flex:999 1 min(100%,620px);max-width:720px;display:flex;flex-direction:column;gap:22px;min-width:0">
+      <sc-for list="{{ blocks }}" as="b" hint-placeholder-count="6">
+        <sc-if value="{{ b.isP }}" hint-placeholder-val="{{ true }}"><p style="margin:0;font-size:18px;line-height:1.7;color:#2B312D;text-wrap:pretty"><sc-for list="{{ b.spans }}" as="sp"><sc-if value="{{ sp.strong }}"><strong style="font-weight:700;color:#0E1110">{{ sp.text }}</strong></sc-if><sc-if value="{{ sp.plain }}"><span>{{ sp.text }}</span></sc-if></sc-for></p></sc-if>
+        <sc-if value="{{ b.isH2 }}" hint-placeholder-val="{{ false }}"><h2 style="margin:22px 0 0;font-size:clamp(26px,2.8vw,36px);line-height:1.06;letter-spacing:-.04em;font-weight:700">{{ b.text }}</h2></sc-if>
+        <sc-if value="{{ b.isList }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <sc-for list="{{ b.items }}" as="it">
+              <div style="display:flex;gap:14px;align-items:baseline;font-size:18px;line-height:1.6;color:#2B312D"><span style="width:7px;height:7px;border-radius:50%;background:#CBF24C;box-shadow:0 0 0 1px #8CC63F;flex:none;transform:translateY(-2px);display:block"></span><span><sc-for list="{{ it.spans }}" as="sp"><sc-if value="{{ sp.strong }}"><strong style="font-weight:700;color:#0E1110">{{ sp.text }}</strong></sc-if><sc-if value="{{ sp.plain }}"><span>{{ sp.text }}</span></sc-if></sc-for></span></div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <sc-if value="{{ b.isQuote }}" hint-placeholder-val="{{ false }}"><p style="margin:14px 0;font-size:clamp(24px,2.8vw,34px);line-height:1.2;letter-spacing:-.035em;font-weight:700;text-wrap:pretty">“{{ b.text }}”</p></sc-if>
+        <sc-if value="{{ b.isCallout }}" hint-placeholder-val="{{ false }}">
+          <div style="background:#CBF24C;border-radius:24px;padding:28px;display:flex;flex-wrap:wrap;gap:18px 32px;align-items:flex-end;margin:8px 0">
+            <div style="font-size:clamp(46px,5vw,68px);line-height:.9;letter-spacing:-.05em;font-weight:900">{{ b.value }}<span style="font-size:.45em;letter-spacing:-.02em">{{ b.unit }}</span></div>
+            <div style="flex:1 1 220px;min-width:0"><div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#46531F">{{ b.label }}</div><div style="margin-top:6px;font-size:15px;line-height:1.5;color:#3B4522">{{ b.text }}</div></div>
+          </div>
+        </sc-if>
+        <sc-if value="{{ b.isImage }}" hint-placeholder-val="{{ false }}">
+          <figure style="margin:10px 0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ b.url }}" alt="{{ b.alt }}" style="width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:22px;display:block"></img><sc-if value="{{ b.hasCaption }}"><figcaption style="margin-top:10px;font-size:13px;color:#6C7566">{{ b.caption }}</figcaption></sc-if></figure>
+        </sc-if>
+      </sc-for>
+    </div>
+  </article>
+
+  <section style="max-width:1280px;margin:0 auto;padding:88px 24px 0">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px">
+      <h2 style="margin:0;font-size:clamp(26px,3.4vw,46px);line-height:1.04;letter-spacing:-.04em;font-weight:700">Keep reading</h2>
+      <a href="news.html" style="display:inline-flex;align-items:center;gap:9px;background:#0E1110;color:#fff;border-radius:999px;padding:13px 22px;font-size:14px;font-weight:700" style-hover="background:#CBF24C;color:#0E1110">All articles <span>&rarr;</span></a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:30px">
+      <sc-for list="{{ related }}" as="r" hint-placeholder-count="3">
+        <a href="{{ r.href }}" onClick="{{ r.open }}" style="background:#fff;border-radius:26px;padding:12px;display:flex;flex-direction:column;gap:16px;color:#0E1110" style-hover="background:#CBF24C">
+          <span style="display:block;border-radius:18px;overflow:hidden;aspect-ratio:16/10;background:#E8E8E5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ r.mainImage.url }}" alt="{{ r.mainImage.alt }}" style="width:100%;height:100%;object-fit:cover;display:block"></img></span>
+          <span style="display:block;padding:4px 10px 12px">
+            <span style="display:block;font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">{{ r.category }} · {{ r.readTime }} min</span>
+            <span style="display:block;margin-top:10px;font-size:20px;line-height:1.15;letter-spacing:-.03em;font-weight:700">{{ r.title }}</span>
+          </span>
+        </a>
+      </sc-for>
+    </div>
+  </section>
+
+  </sc-if>
+
+  <section style="padding:72px 12px 12px">
+    <div style="background:#CBF24C;border-radius:30px;padding:clamp(32px,5vw,64px);display:flex;flex-wrap:wrap;gap:24px;align-items:flex-end;justify-content:space-between">
+      <h2 style="margin:0;font-size:clamp(30px,4.4vw,60px);line-height:1;letter-spacing:-.045em;font-weight:900;max-width:720px">Get a straight answer on what your property needs.</h2>
+      <a href="contact.html" style="background:#0E1110;color:#fff;font-weight:700;font-size:15px;padding:16px 28px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Start a project</a>
+    </div>
+  </section>
+
+  <footer style="padding:0 12px 12px">
+    <div style="background:#0E1110;border-radius:30px;padding:40px 28px 24px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+      <img src="assets/sk-logo.svg" alt="SK Energy" style="height:29px;width:123px;flex:none;object-fit:contain;display:block"></img>
+      <span style="color:rgba(255,255,255,.58);font-size:13px">Suite 2, Abtel Building, Pitreavie Business Park, Dunfermline KY11 8US · customerservice@sk-energy.co.uk</span>
+      <div style="display:flex;align-items:center;gap:20px;opacity:.9">
+        <img src="assets/mcs-w.png" alt="MCS certified" style="height:24px;width:77px;flex:none;object-fit:contain;display:block"></img>
+        <img src="assets/trustmark-white.png" alt="TrustMark" style="height:20px;width:94px;flex:none;object-fit:contain;display:block"></img>
+        <img src="assets/trustpilot-white.png" alt="Trustpilot" style="height:18px;width:74px;flex:none;object-fit:contain;display:block"></img>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;slug&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;heat-pump-running-costs-fife-winter&quot;,&quot;home-energy-scotland-grant-loan&quot;,&quot;ev-charging-off-peak-tariff&quot;,&quot;two-engineers-join-dunfermline-team&quot;,&quot;new-build-heat-standard-specification&quot;],&quot;default&quot;:&quot;heat-pump-running-costs-fife-winter&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Preview content&quot;}}">
+class Component extends DCLogic {
+  state = { data: null, slug: null, copied: false };
+
+  componentDidMount() {
+    const q = new URLSearchParams(location.search).get('slug');
+    if (q) this.setState({ slug: q });
+    const go = () => (window.SKCMS ? window.SKCMS.content().then((data) => this.setState({ data })).catch(() => {}) : setTimeout(go, 30));
+    go();
+  }
+
+  syncImages() {
+    document.querySelectorAll('img[data-src]').forEach((im) => {
+      const s = im.getAttribute('data-src');
+      if (s && s.indexOf('{{') < 0 && im.getAttribute('src') !== s) im.setAttribute('src', s);
+    });
+  }
+
+  componentDidUpdate(prev) {
+    if (prev.slug !== this.props.slug && this.props.slug) this.setState({ slug: null });
+    requestAnimationFrame(() => this.syncImages());
+  }
+
+  componentWillUnmount() { if (this._t) clearTimeout(this._t); }
+
+  // Portable Text → flat render blocks (lists grouped, spans flagged)
+  blocks(body) {
+    const spans = (b) => (b.children || []).map((c, i) => {
+      const strong = (c.marks || []).includes('strong');
+      return { key: c._key || i, text: c.text, strong, plain: !strong };
+    });
+    const out = [];
+    (body || []).forEach((b, i) => {
+      const key = b._key || String(i);
+      if (b._type === 'image') return out.push({ key, isImage: true, url: b.url, alt: b.alt || '', caption: b.caption || '', hasCaption: !!b.caption });
+      if (b._type === 'callout') return out.push({ key, isCallout: true, value: b.value, unit: b.unit || '', label: b.label, text: b.text });
+      if (b.listItem) {
+        const last = out[out.length - 1];
+        const item = { key, spans: spans(b) };
+        if (last && last.isList) last.items.push(item); else out.push({ key, isList: true, items: [item] });
+        return;
+      }
+      const text = (b.children || []).map((c) => c.text).join('');
+      if (b.style === 'blockquote') return out.push({ key, isQuote: true, text });
+      if (b.style === 'h2' || b.style === 'h3') return out.push({ key, isH2: true, text });
+      out.push({ key, isP: true, spans: spans(b) });
+    });
+    return out;
+  }
+
+  renderVals() {
+    const list = (this.state.data && this.state.data.posts) || [];
+    const slug = this.state.slug || this.props.slug || 'heat-pump-running-costs-fife-winter';
+    const post = list.find((p) => p.slug.current === slug) || list[0] || { author: {}, mainImage: {}, body: [] };
+    const d = post.publishedAt ? new Date(post.publishedAt + 'T12:00:00') : null;
+    const open = (s) => (e) => { e.preventDefault(); this.setState({ slug: s }); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    const sameCat = list.filter((p) => p !== post && p.category === post.category);
+    const rest = list.filter((p) => p !== post && p.category !== post.category);
+    return {
+      ready: !!this.state.data,
+      post,
+      blocks: this.blocks(post.body),
+      dateLabel: d ? d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : '',
+      initials: ((post.author && post.author.name) || '').split(' ').map((w) => w[0]).join('').slice(0, 2),
+      related: sameCat.concat(rest).slice(0, 3).map((p) => ({ ...p, href: '?slug=' + p.slug.current, open: open(p.slug.current) })),
+      copyLabel: this.state.copied ? 'Link copied' : 'Copy link',
+      copyLink: () => {
+        const url = location.origin + location.pathname + '?slug=' + (post.slug ? post.slug.current : '');
+        if (navigator.clipboard) navigator.clipboard.writeText(url).catch(() => {});
+        this.setState({ copied: true });
+        clearTimeout(this._t); this._t = setTimeout(() => this.setState({ copied: false }), 1800);
+      },
+    };
+  }
+}
+</script>
+</body>
+</html>

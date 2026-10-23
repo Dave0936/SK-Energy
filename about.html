@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F1F1EF; -webkit-font-smoothing:antialiased; }
+  * { box-sizing:border-box; }
+  a { color:#0E1110; text-decoration:none; }
+  a:hover { color:#46531F; }
+</style>
+<script src="nav-menu.js"></script>
+</helmet>
+
+<div style="font-family:'Satoshi',system-ui,sans-serif;color:#0E1110;background:#F1F1EF;overflow-x:clip">
+  <section style="padding:12px 12px 0">
+    <div style="position:relative;border-radius:30px;overflow:hidden;background:#0E1110;min-height:min(84vh,800px);display:flex;flex-direction:column">
+      <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_232b61c1-a40f-4a64-904d-4a8aba9a6f93.png" alt="The SK Energy installation team" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></img>
+      <div style="position:absolute;inset:0;background:linear-gradient(95deg,rgba(8,12,10,.66) 0%,rgba(8,12,10,.3) 48%,rgba(8,12,10,.05) 75%),linear-gradient(180deg,rgba(8,12,10,.3) 0%,rgba(8,12,10,0) 22%);pointer-events:none"></div>
+      <header style="position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;flex-wrap:wrap">
+        <a href="index.html" aria-label="SK Energy home" style="display:flex;align-items:center"><img src="assets/sk-logo.svg" alt="SK Energy" style="height:38px;width:161px;flex:none;object-fit:contain;display:block"></img></a>
+        <nav style="display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.18);padding:6px;border-radius:999px;flex-wrap:wrap">
+          <a href="about.html" style="color:#0E1110;background:#fff;font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px">About</a>
+          <div data-svc-menu style="position:relative">
+            <button type="button" data-svc-toggle aria-expanded="false" aria-haspopup="true" style="color:rgba(255,255,255,.9);background:transparent;font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px;border:0;cursor:pointer;font-family:'Satoshi',sans-serif;display:flex;align-items:center;gap:6px" style-hover="background:#fff;color:#0E1110">Services <span data-svc-caret style="display:block;font-size:10px;line-height:1;transition:transform .2s ease">&#9662;</span></button>
+            <div data-svc-panel style="position:absolute;top:calc(100% + 12px);left:-120px;z-index:60;width:min(560px,calc(100vw - 32px));background:#fff;border-radius:22px;padding:10px;box-shadow:0 28px 70px -30px rgba(8,12,10,.7);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:4px;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-6px);transition:opacity .2s ease,transform .2s ease,visibility .2s">
+              <a href="service.html?slug=residential-solar" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Residential solar</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Panels and battery storage for your home</span></a>
+              <a href="service.html?slug=air-source-heat-pumps" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Air source heat pumps</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Low-carbon heating and hot water</span></a>
+              <a href="service.html?slug=ev-charge-points" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">EV charge points</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Home, workplace and fleet charging</span></a>
+              <a href="service.html?slug=commercial-solutions" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Commercial solutions</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Solar and storage for business sites</span></a>
+              <a href="service.html?slug=new-build-services" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">New build services</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Planned into your development</span></a>
+              <a href="service.html?slug=aftercare" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Aftercare</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Servicing, monitoring and support</span></a>
+            </div>
+          </div>
+          <a href="work.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Work</a>
+          <a href="news.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">News</a>
+          <a href="contact.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Contact</a>
+        </nav>
+        <a href="contact.html" style="background:#CBF24C;color:#0E1110;font-weight:700;font-size:14px;padding:12px 22px;border-radius:999px" style-hover="background:#fff">Start a project</a>
+      </header>
+      <div style="position:relative;z-index:2;margin:auto 0;padding:40px 22px;max-width:min(780px,100%)">
+        <div style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:8px 15px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;justify-self:start;align-self:start"><span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>About SK Energy</div>
+        <h1 style="margin:20px 0 0;color:#fff;font-size:clamp(38px,5.8vw,84px);line-height:.98;letter-spacing:-.045em;font-weight:900;text-wrap:balance;text-shadow:0 2px 40px rgba(8,12,10,.5)">Helping build a more sustainable, resilient Scotland.</h1>
+        <p style="margin:22px 0 30px;color:#fff;font-size:clamp(16px,1.4vw,19px);line-height:1.55;max-width:520px;text-shadow:0 2px 22px rgba(8,12,10,.7)">A team of renewable energy specialists helping homes and businesses move to cleaner, lower-cost energy.</p>
+        <a href="contact.html" style="display:inline-flex;background:#CBF24C;color:#0E1110;font-weight:700;font-size:15px;padding:16px 28px;border-radius:999px" style-hover="background:#fff">Get in touch</a>
+      </div>
+      <div style="position:relative;z-index:2;padding:0 22px 22px"><div style="display:flex;flex-wrap:wrap;align-items:center;gap:22px">
+          <img src="assets/mcs-w.png" alt="MCS certified" style="height:26px;width:83px;flex:none;object-fit:contain;display:block"></img>
+          <img src="assets/trustmark-white.png" alt="TrustMark Government Endorsed Quality" style="height:21px;width:99px;flex:none;object-fit:contain;display:block"></img>
+          <img src="assets/trustpilot-white.png" alt="Trustpilot" style="height:19px;width:78px;flex:none;object-fit:contain;display:block"></img>
+        </div></div>
+    </div>
+  </section>
+
+  <section style="max-width:1280px;margin:0 auto;padding:88px 24px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px 40px;align-items:start">
+      <div style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(14,17,16,.16);border-radius:999px;padding:8px 15px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566;justify-self:start;align-self:start"><span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>Meet SK Energy</div>
+      <div style="grid-column:span 2;display:flex;flex-direction:column;gap:28px">
+        <p style="margin:0;font-size:clamp(24px,3.2vw,44px);line-height:1.12;letter-spacing:-.035em;font-weight:700;text-wrap:pretty">We install solar PV, battery storage, EV charge points and air source heat pumps for residential and commercial clients.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px 32px">
+          <p style="margin:0;font-size:16px;line-height:1.65;color:#6C7566">Our mission is simple: reliable, efficient energy that lowers your costs and reduces your impact. Whether you want to generate your own power, store it for later, or heat your home more efficiently, we have the expertise to do it properly.</p>
+          <p style="margin:0;font-size:16px;line-height:1.65;color:#6C7566">Our engineers and technicians are highly skilled and stay at the forefront of the industry. From first consultation to installation and ongoing support, one team looks after every stage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:1280px;margin:0 auto;padding:88px 24px 0">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px">
+      <h2 style="margin:0;font-size:clamp(28px,3.6vw,50px);line-height:1.05;letter-spacing:-.04em;font-weight:700">What guides us</h2>
+      <p style="margin:0;max-width:380px;color:#6C7566;font-size:15px;line-height:1.6">The principles behind every recommendation, installation and long-term customer relationship.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px;margin-top:32px">
+      <div data-reveal style="background:#fff;color:#0E1110;border-radius:24px;padding:26px;min-height:240px;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;color:#6C7566">01</span>
+        <span><span style="display:block;font-size:23px;line-height:1.1;letter-spacing:-.03em;font-weight:700">Expertise and experience</span><span style="display:block;margin-top:12px;font-size:14px;line-height:1.6;color:#6C7566">Fully certified engineers and technicians who keep pace with the latest industry advances.</span></span>
+      </div>
+      <div data-reveal style="background:#0E1110;color:#fff;border-radius:24px;padding:26px;min-height:240px;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;color:#CBF24C">02</span>
+        <span><span style="display:block;font-size:23px;line-height:1.1;letter-spacing:-.03em;font-weight:700">Tailored solutions</span><span style="display:block;margin-top:12px;font-size:14px;line-height:1.6;color:rgba(255,255,255,.74)">Every system starts with your property, energy use and plans — never a one-size-fits-all package.</span></span>
+      </div>
+      <div data-reveal style="background:#fff;color:#0E1110;border-radius:24px;padding:26px;min-height:240px;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;color:#6C7566">03</span>
+        <span><span style="display:block;font-size:23px;line-height:1.1;letter-spacing:-.03em;font-weight:700">Quality and reliability</span><span style="display:block;margin-top:12px;font-size:14px;line-height:1.6;color:#6C7566">Components from trusted manufacturers, installed with careful workmanship to last.</span></span>
+      </div>
+      <div data-reveal style="background:#CBF24C;color:#0E1110;border-radius:24px;padding:26px;min-height:240px;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;color:#46531F">04</span>
+        <span><span style="display:block;font-size:23px;line-height:1.1;letter-spacing:-.03em;font-weight:700">Sustainability & environment</span><span style="display:block;margin-top:12px;font-size:14px;line-height:1.6;color:#3B4522">Clean energy that cuts carbon and running costs for the homes and businesses we work with.</span></span>
+      </div>
+      <div data-reveal style="background:#fff;color:#0E1110;border-radius:24px;padding:26px;min-height:240px;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;color:#6C7566">05</span>
+        <span><span style="display:block;font-size:23px;line-height:1.1;letter-spacing:-.03em;font-weight:700">Exceptional customer service</span><span style="display:block;margin-top:12px;font-size:14px;line-height:1.6;color:#6C7566">Clear advice at every stage, from first conversation through to handover.</span></span>
+      </div>
+      <div data-reveal style="background:#fff;color:#0E1110;border-radius:24px;padding:26px;min-height:240px;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;color:#6C7566">06</span>
+        <span><span style="display:block;font-size:23px;line-height:1.1;letter-spacing:-.03em;font-weight:700">Comprehensive support</span><span style="display:block;margin-top:12px;font-size:14px;line-height:1.6;color:#6C7566">Monitoring, maintenance and aftercare from the same team long after installation.</span></span>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:1280px;margin:0 auto;padding:14px 24px 0">
+    <div style="background:#fff;border-radius:30px;padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:12px">
+      <div style="border-radius:22px;overflow:hidden;min-height:420px;background:#E8E8E5;position:relative"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_ba5847a5-693e-495c-8540-f6e07ff7310a.png" alt="Underfloor heating pipework" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block"></img></div>
+      <div style="padding:clamp(20px,3.4vw,44px);display:flex;flex-direction:column;justify-content:center;gap:16px">
+        <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Our story</div>
+        <h2 style="margin:0;font-size:clamp(26px,3.2vw,44px);line-height:1.04;letter-spacing:-.04em;font-weight:700;text-wrap:balance">From underfloor heating to whole-home renewables</h2>
+        <p style="margin:0;font-size:16px;line-height:1.65;color:#6C7566">We started out as an underfloor heating company, helping customers enjoy warm, comfortable homes. As the shift to renewable energy gathered pace, we saw our skills and values fit a bigger goal.</p>
+        <p style="margin:0;font-size:16px;line-height:1.65;color:#6C7566">That grounding in efficient heating and tailored design is the foundation of everything we install today — and it's why we look at the whole property, not just one piece of kit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:72px 12px 12px">
+    <div style="background:#CBF24C;border-radius:30px;padding:clamp(32px,5vw,64px);display:flex;flex-wrap:wrap;gap:24px;align-items:flex-end;justify-content:space-between">
+      <h2 style="margin:0;font-size:clamp(30px,4.4vw,60px);line-height:1;letter-spacing:-.045em;font-weight:900;max-width:720px">Thinking about the right next step for your property?</h2>
+      <a href="contact.html" style="background:#0E1110;color:#fff;font-weight:700;font-size:15px;padding:16px 28px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Talk to our team</a>
+    </div>
+  </section>
+
+  <footer style="padding:0 12px 12px">
+    <div style="background:#0E1110;border-radius:30px;padding:48px 28px 24px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:32px">
+        <div style="max-width:280px">
+          <img src="assets/sk-logo.svg" alt="SK Energy" style="height:29px;width:123px;flex:none;object-fit:contain;display:block"></img>
+          <p style="margin:16px 0 0;color:rgba(255,255,255,.58);font-size:14px;line-height:1.6">Suite 2, Abtel Building<br>Pitreavie Business Park<br>Dunfermline, Fife, KY11 8US</p>
+          <a href="mailto:customerservice@sk-energy.co.uk" style="display:block;margin-top:12px;color:#fff;font-size:14px" style-hover="color:#CBF24C">customerservice@sk-energy.co.uk</a>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Explore</div>
+          <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+            <a href="index.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Home</a>
+            <a href="about.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">About us</a>
+            <a href="contact.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Contact</a>
+            <a href="warranty-registration.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Warranty registration</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Services</div>
+          <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+            <a href="service.html?slug=residential-solar" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Residential solar</a>
+            <a href="service.html?slug=commercial-solutions" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Commercial solutions</a>
+            <a href="service.html?slug=ev-charge-points" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">EV charge points</a>
+            <a href="service.html?slug=air-source-heat-pumps" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Air source heat pumps</a>
+            <a href="service.html?slug=new-build-services" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">New build services</a>
+            <a href="service.html?slug=aftercare" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Aftercare</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Accredited</div>
+          <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px">
+            <img src="assets/mcs-w.png" alt="MCS certified" style="height:26px;width:83px;object-fit:contain;object-position:left;display:block"></img>
+            <img src="assets/trustmark-white.png" alt="TrustMark" style="height:21px;width:99px;object-fit:contain;object-position:left;display:block"></img>
+            <img src="assets/trustpilot-white.png" alt="Trustpilot" style="height:19px;width:78px;object-fit:contain;object-position:left;display:block"></img>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:44px;border-top:1px solid rgba(255,255,255,.12);padding-top:18px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between">
+        <span style="color:rgba(255,255,255,.45);font-size:13px">&copy; 2026 SK Energy. All rights reserved.</span>
+        <a href="#" style="color:rgba(255,255,255,.45);font-size:13px" style-hover="color:#CBF24C">Privacy policy</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() {
+    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'none'; io.unobserve(e.target); } }), { threshold: 0.08 });
+    document.querySelectorAll('[data-reveal]').forEach((el, i) => {
+      el.style.opacity = '0'; el.style.transform = 'translateY(18px)';
+      el.style.transition = 'opacity .8s cubic-bezier(.2,.7,.2,1) ' + (i % 3) * 70 + 'ms, transform .8s cubic-bezier(.2,.7,.2,1) ' + (i % 3) * 70 + 'ms';
+      io.observe(el);
+    });
+    this._io = io;
+  }
+  componentWillUnmount() { if (this._io) this._io.disconnect(); }
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

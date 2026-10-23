@@ -1,0 +1,393 @@
+{
+ "services": [
+  {
+   "_id": "svc-solar",
+   "slug": {
+    "current": "residential-solar"
+   },
+   "order": 1,
+   "navTitle": "Residential solar",
+   "kicker": "Residential solar & battery storage",
+   "title": "Solar, simplified. Power your home with daylight.",
+   "standfirst": "Generate more of your own electricity, reduce your exposure to rising energy costs and add a dependable, low-maintenance asset to your home.",
+   "heroImage": {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_c4940355-0fdd-4c13-87a6-381d169d2f4e.png",
+    "alt": "Black solar panels on a pitched slate roof"
+   },
+   "intro": "Panels sized to how your household actually uses power, with battery storage so what you generate at midday is still working for you in the evening.",
+   "benefitsTitle": "Solar that works harder",
+   "benefits": [
+    {
+     "title": "Lower electricity bills",
+     "text": "Every unit you generate is one you don't buy. How much you save depends on system size and usage — and surplus can be sold back to the grid."
+    },
+    {
+     "title": "Low maintenance",
+     "text": "Panels need little more than an occasional clean. Reputable manufacturers back them with 20–25 year warranties."
+    },
+    {
+     "title": "Cleaner energy",
+     "text": "Daylight is abundant and renewable, so your home relies less on fossil fuels and carries a smaller carbon footprint."
+    },
+    {
+     "title": "Added property value",
+     "text": "Homes with solar are increasingly sought after — a sustainable upgrade that is also a sound long-term investment."
+    }
+   ],
+   "feature": {
+    "kicker": "Designed around your roof",
+    "title": "A system that fits the property, not a package",
+    "text": "We take your consumption, roof layout and budget into account to create a plan that maximises output and savings — and we tell you plainly if your roof isn't right for it.",
+    "image": {
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_7ea3c33e-9e2c-401d-ad81-8bf10d9f69a3.png",
+     "alt": "Engineers fitting solar panels on a slate roof"
+    }
+   },
+   "applications": [],
+   "processTitle": "Your route to solar",
+   "process": [
+    {
+     "title": "Book a consultation",
+     "text": "Tell us about your property, energy use and priorities. We answer your questions and establish the right starting point, with no obligation."
+    },
+    {
+     "title": "Bespoke solar design",
+     "text": "Our experts design a tailored system around your energy use, roof layout and budget, optimised for efficiency and savings."
+    },
+    {
+     "title": "Professional installation",
+     "text": "Our accredited team manages installation safely and efficiently, with careful workmanship and minimal disruption to your day."
+    },
+    {
+     "title": "Energy independence",
+     "text": "Once your system is live we help you understand its performance, and stay available for monitoring, maintenance and aftercare."
+    }
+   ]
+  },
+  {
+   "_id": "svc-ashp",
+   "slug": {
+    "current": "air-source-heat-pumps"
+   },
+   "order": 2,
+   "navTitle": "Air source heat pumps",
+   "kicker": "Air source heat pumps",
+   "title": "Feel the comfort, see the savings.",
+   "standfirst": "Air source heat pumps draw heat from the outside air — even when it's cold — and use it to warm your home and your hot water.",
+   "heroImage": {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171155_8249db3e-bf60-4ddb-9f04-bb386db30d90.png",
+    "alt": "Heat pump outside a home on a frosty morning"
+   },
+   "intro": "We design, install and maintain heat pump systems as a lower-carbon alternative to oil and gas, with emitters sized room by room so the house is actually warm.",
+   "benefitsTitle": "Efficient by design",
+   "benefits": [
+    {
+     "title": "Energy efficiency",
+     "text": "A heat pump delivers more heat energy than the electricity it uses, which means significantly lower running costs than a traditional boiler or electric heater."
+    },
+    {
+     "title": "Lower carbon",
+     "text": "As a renewable technology, a heat pump cuts your home's carbon footprint from the day it's switched on."
+    },
+    {
+     "title": "Heating and hot water",
+     "text": "One system covers space heating and hot water, with minimal ongoing maintenance."
+    },
+    {
+     "title": "Grants and incentives",
+     "text": "In Scotland, government grants and loans can reduce the upfront cost. We help you find the options that apply to you."
+    }
+   ],
+   "feature": {
+    "kicker": "Installation and support",
+    "title": "Placed for performance, and quiet",
+    "text": "We work with you on the best location for the outdoor unit for efficient operation and minimal noise, and check your property is suitable before anything is ordered. After installation, our team stays on hand for guidance and maintenance.",
+    "image": {
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_9aa38863-93c9-4c2e-8b3b-414580aca847.png",
+     "alt": "Heat pump unit mounted beside a rendered wall"
+    }
+   },
+   "applications": [
+    {
+     "title": "Retrofit",
+     "text": "Heat pumps integrate with existing radiators or underfloor heating, upgrading older homes without invasive work."
+    },
+    {
+     "title": "New build",
+     "text": "Planned from the ground up, with optimal placement and modern insulation to maximise performance."
+    },
+    {
+     "title": "Commercial",
+     "text": "Scalable, controllable heating and cooling for offices through to large industrial spaces."
+    }
+   ],
+   "processTitle": "Your route to low-carbon heat",
+   "process": [
+    {
+     "title": "Book a consultation",
+     "text": "Tell us about your property, energy use and priorities. We answer your questions and establish the right starting point, with no obligation."
+    },
+    {
+     "title": "Heat loss survey & design",
+     "text": "We calculate heat loss room by room and size the heat pump and emitters to match, so the system runs efficiently all winter."
+    },
+    {
+     "title": "Professional installation",
+     "text": "Our accredited team manages installation safely and efficiently, with careful workmanship and minimal disruption to your day."
+    },
+    {
+     "title": "Energy independence",
+     "text": "Once your system is live we help you understand its performance, and stay available for monitoring, maintenance and aftercare."
+    }
+   ]
+  },
+  {
+   "_id": "svc-ev",
+   "slug": {
+    "current": "ev-charge-points"
+   },
+   "order": 3,
+   "navTitle": "EV charge points",
+   "kicker": "EV charge points",
+   "title": "Charging that fits your journey.",
+   "standfirst": "Whether you drive an EV, run a business fleet or are developing new homes, we design and install reliable charging that is simple to use from day one.",
+   "heroImage": {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_a70be736-2d19-4405-9a41-f4f8ce1d2ca9.png",
+    "alt": "Home EV charger on a driveway with a parked electric car"
+   },
+   "intro": "We coordinate capacity, charger placement, installation and handover, with smart options to schedule charging onto your cheapest hours.",
+   "benefitsTitle": "Charging that fits",
+   "benefits": [
+    {
+     "title": "Home charging",
+     "text": "Garage, driveway or wherever suits. We check your electrical system for compatibility and safety first."
+    },
+    {
+     "title": "Business and fleet",
+     "text": "From a couple of points to a full network for staff, customers and fleets — designed to meet local regulations."
+    },
+    {
+     "title": "Reliable equipment",
+     "text": "Chargers from trusted manufacturers, with app-based monitoring and smart scheduling."
+    },
+    {
+     "title": "Grants and incentives",
+     "text": "You may be eligible for funding towards installation. We stay current on the schemes and help you apply."
+    }
+   ],
+   "feature": {
+    "kicker": "Continued support",
+    "title": "Shown how it works, then supported for good",
+    "text": "Your installer walks you through the new charger before they leave, and we remain a call away long after — for any problem, big or small.",
+    "image": {
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_4148853d-aad2-4b79-8460-1980b867d290.png",
+     "alt": "Commercial site with workplace chargers"
+    }
+   },
+   "applications": [],
+   "processTitle": "From survey to switch-on",
+   "process": [
+    {
+     "title": "Book a consultation",
+     "text": "A free, no-obligation conversation about your vehicles, your property and the right charger for both."
+    },
+    {
+     "title": "Expert installation",
+     "text": "Certified technicians handle electrical connections, mounting and commissioning, all to local codes."
+    },
+    {
+     "title": "Continued support",
+     "text": "A walkthrough at handover, then ongoing support and maintenance whenever you need it."
+    }
+   ]
+  },
+  {
+   "_id": "svc-commercial",
+   "slug": {
+    "current": "commercial-solutions"
+   },
+   "order": 4,
+   "navTitle": "Commercial solutions",
+   "kicker": "Commercial solutions",
+   "title": "Smart energy for every industry.",
+   "standfirst": "Reduce operating costs, improve energy efficiency and demonstrate a real commitment to sustainability.",
+   "heroImage": {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_4148853d-aad2-4b79-8460-1980b867d290.png",
+    "alt": "Aerial view of a commercial roof with a solar array"
+   },
+   "intro": "Every business has its own demand profile. From a retail unit to a manufacturing site, we design solar PV and battery systems around your operating hours, future growth and the practical realities of keeping the business moving.",
+   "benefitsTitle": "Commercial performance",
+   "benefits": [
+    {
+     "title": "Lower operating costs",
+     "text": "Generate on site and store surplus for peak demand or low-light periods, cutting grid reliance and energy spend."
+    },
+    {
+     "title": "Sustainability you can show",
+     "text": "A measurably lower carbon footprint that supports CSR goals and resonates with customers."
+    },
+    {
+     "title": "Reliable and scalable",
+     "text": "Quality components built to last, with systems that expand as your business and demand grow."
+    },
+    {
+     "title": "Installed around you",
+     "text": "Certified professionals plan every stage to avoid downtime, then maintain the system at peak efficiency."
+    }
+   ],
+   "feature": {
+    "kicker": "Designed for business",
+    "title": "Numbers your finance team can sign off",
+    "text": "Every proposal sets out expected generation, payback and running costs line by line, and monitoring after handover shows exactly what the system earns.",
+    "image": {
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_6d635bdf-2c8b-403c-8d2d-d2dab8dd6576.png",
+     "alt": "Close detail of a solar array"
+    }
+   },
+   "applications": [],
+   "processTitle": "How a commercial project runs",
+   "process": [
+    {
+     "title": "Book a consultation",
+     "text": "Tell us about your property, energy use and priorities. We answer your questions and establish the right starting point, with no obligation."
+    },
+    {
+     "title": "Site survey & design",
+     "text": "We review your load profile, roof and grid connection, then design a system sized to your demand and growth plans."
+    },
+    {
+     "title": "Professional installation",
+     "text": "Our accredited team manages installation safely and efficiently, with careful workmanship and minimal disruption to your day."
+    },
+    {
+     "title": "Energy independence",
+     "text": "Once your system is live we help you understand its performance, and stay available for monitoring, maintenance and aftercare."
+    }
+   ]
+  },
+  {
+   "_id": "svc-newbuild",
+   "slug": {
+    "current": "new-build-services"
+   },
+   "order": 5,
+   "navTitle": "New build services",
+   "kicker": "New build services",
+   "title": "Built in from the first drawing.",
+   "standfirst": "Renewable energy systems planned around your development from the outset, so homes complete compliant, marketable and on programme.",
+   "heroImage": {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_5002f371-5b5e-4025-b615-8588fbe19323.png",
+    "alt": "New-build street with heat pumps and solar roofs at dusk"
+   },
+   "intro": "We work to your build programme, coordinating solar, storage, heat pumps and EV provision with the trades already on site, and specifying it all as one joined-up system.",
+   "benefitsTitle": "Why developers bring us in early",
+   "benefits": [
+    {
+     "title": "Compliance, designed in",
+     "text": "Clean heating and generation specified at drawing stage, when it's cheapest to get right."
+    },
+    {
+     "title": "Coordinated with your trades",
+     "text": "A dedicated site lead who works to your programme and attends your trades meetings."
+    },
+    {
+     "title": "Never the hold-up",
+     "text": "Commissioning and certification completed before snagging, so heating never delays a handover."
+    },
+    {
+     "title": "More marketable homes",
+     "text": "Lower running costs and handover packs that help buyers understand their new home."
+    }
+   ],
+   "feature": {
+    "kicker": "On programme",
+    "title": "One team from first fix to handover",
+    "text": "From fixing outdoor unit and cylinder positions with your architect to walking each buyer through their controls, one SK Energy team stays with the development throughout.",
+    "image": {
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_f5ae761d-d161-444b-b959-3f78662a342c.png",
+     "alt": "Timber-frame plots under construction"
+    }
+   },
+   "applications": [],
+   "processTitle": "How we work with developers",
+   "process": [
+    {
+     "title": "Book a consultation",
+     "text": "Tell us about your property, energy use and priorities. We answer your questions and establish the right starting point, with no obligation."
+    },
+    {
+     "title": "Specification & design",
+     "text": "We fix emitter layouts, equipment positions and capacity at drawing stage, before frames are ordered."
+    },
+    {
+     "title": "Professional installation",
+     "text": "Our accredited team manages installation safely and efficiently, with careful workmanship and minimal disruption to your day."
+    },
+    {
+     "title": "Energy independence",
+     "text": "Once your system is live we help you understand its performance, and stay available for monitoring, maintenance and aftercare."
+    }
+   ]
+  },
+  {
+   "_id": "svc-aftercare",
+   "slug": {
+    "current": "aftercare"
+   },
+   "order": 6,
+   "navTitle": "Aftercare",
+   "kicker": "Aftercare",
+   "title": "Here after handover.",
+   "standfirst": "Ongoing support and maintenance to keep your system performing at its best, from the people who installed it.",
+   "heroImage": {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171117_1452aa6d-9313-4de6-a783-a8d5795bf606.png",
+    "alt": "Engineer servicing a heat pump cylinder"
+   },
+   "intro": "We help you understand your new system from day one, then stay available with practical advice, scheduled maintenance and quick help when something isn't right.",
+   "benefitsTitle": "What aftercare covers",
+   "benefits": [
+    {
+     "title": "Performance monitoring",
+     "text": "We help you read your system's output and spot anything that drifts from what it should deliver."
+    },
+    {
+     "title": "Servicing and maintenance",
+     "text": "Scheduled checks for heat pumps, solar, batteries and chargers to keep them efficient and in warranty."
+    },
+    {
+     "title": "Practical advice",
+     "text": "Tariffs, controls and settings — straightforward answers on getting the most from your system."
+    },
+    {
+     "title": "Warranty support",
+     "text": "Register your installation and we'll handle manufacturer warranty claims on your behalf."
+    }
+   ],
+   "feature": {
+    "kicker": "Lasting support",
+    "title": "The same team, a call away",
+    "text": "Aftercare is delivered by our own engineers — never a call centre — so the person helping you knows how your system was put in.",
+    "image": {
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171117_7283792c-937e-4c5f-862c-5e41b370f885.png",
+     "alt": "Engineer reviewing a system with a homeowner"
+    }
+   },
+   "applications": [],
+   "processTitle": "How aftercare works",
+   "process": [
+    {
+     "title": "Register your system",
+     "text": "Complete warranty registration after handover so your equipment and paperwork are on record."
+    },
+    {
+     "title": "Scheduled servicing",
+     "text": "We contact you when a service is due and book a visit at a time that suits."
+    },
+    {
+     "title": "Help when you need it",
+     "text": "Email us any time and the team that installed your system will come back to you."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1568 @@
+{
+ "caseStudies": [
+  {
+   "_id": "case-kinross",
+   "_type": "caseStudy",
+   "title": "Kinross farmhouse, off the oil",
+   "slug": {
+    "current": "kinross-farmhouse"
+   },
+   "caseNumber": "01",
+   "sector": "Residential retrofit",
+   "location": "Kinross",
+   "completed": "2026-03-20",
+   "duration": "3 weeks on site",
+   "summary": "A 1920s stone farmhouse running on an oil boiler. Solar with storage, a 12 kW heat pump and underfloor through the ground floor, staged so the family stayed in the house throughout.",
+   "heroImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_70a94f75-2687-42d9-b10a-ac92ecc339d2.png",
+    "alt": "Stone farmhouse with solar on the rear roof slope and a heat pump at the gable"
+   },
+   "stats": [
+    {
+     "_key": "k1",
+     "value": "£34,600",
+     "unit": "",
+     "label": "Project budget"
+    },
+    {
+     "_key": "k2",
+     "value": "£2,150",
+     "unit": "/yr",
+     "label": "Energy saved"
+    },
+    {
+     "_key": "k3",
+     "value": "3",
+     "unit": " weeks",
+     "label": "On site"
+    }
+   ],
+   "systems": [
+    "6.8 kWp solar",
+    "10 kWh battery",
+    "12 kW air source heat pump",
+    "Ground-floor underfloor"
+   ],
+   "brief": [
+    {
+     "_type": "block",
+     "_key": "k4",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k5",
+       "text": "The house had been heated by a 20-year-old oil boiler and a wood burner. Fuel deliveries were costing the family over ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k6",
+       "text": "£3,000 a year",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k7",
+       "text": ", and the thick stone walls meant some rooms never got properly warm.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k8",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k9",
+       "text": "They wanted to come off oil entirely, without gutting a house they were living in with two young children.",
+       "marks": []
+      }
+     ]
+    }
+   ],
+   "solution": [
+    {
+     "_type": "block",
+     "_key": "ka",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "kb",
+       "text": "We surveyed the building fabric first. Loft insulation and draught-proofing came before any kit was specified, which let us size the heat pump at ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "kc",
+       "text": "12 kW",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "kd",
+       "text": " instead of the 16 kW a first quote had suggested.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "ke",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "kf",
+       "text": "6.8 kWp array on the south-facing rear slope, out of sight from the road",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "kg",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "kh",
+       "text": "10 kWh battery so midday generation covers the evening",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "ki",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "kj",
+       "text": "Underfloor heating through the new ground-floor flooring, radiators upsized upstairs",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "kk",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "kl",
+       "text": "The work was staged room by room over three weeks so the family never lost heating or hot water for more than a day.",
+       "marks": []
+      }
+     ]
+    }
+   ],
+   "result": [
+    {
+     "_type": "block",
+     "_key": "km",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "kn",
+       "text": "Over the first winter the house held 20°C throughout on a heat pump running at a seasonal performance of ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "ko",
+       "text": "3.6",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "kp",
+       "text": ". The oil tank has been removed and the family now sell surplus generation back through the summer.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "callout",
+     "_key": "kq",
+     "value": "£2,150",
+     "unit": "/yr",
+     "label": "Saved in year one",
+     "text": "Against the previous three years of oil and electricity bills."
+    }
+   ],
+   "gallery": [
+    {
+     "_key": "kr",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_9aa38863-93c9-4c2e-8b3b-414580aca847.png",
+     "alt": "Heat pump unit beside the rear wall"
+    },
+    {
+     "_key": "ks",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_ba5847a5-693e-495c-8540-f6e07ff7310a.png",
+     "alt": "Underfloor pipework before screed",
+     "caption": "Underfloor loops laid before the new floor went down."
+    },
+    {
+     "_key": "kt",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_7ea3c33e-9e2c-401d-ad81-8bf10d9f69a3.png",
+     "alt": "Engineers fitting the solar array"
+    }
+   ],
+   "testimonial": {
+    "quote": "Underfloor through the whole ground floor and a heat pump outside. Two winters in and the bills have not moved — and when we had a question, the same engineer answered.",
+    "name": "Sarah Finlay",
+    "role": "Homeowner, Kinross"
+   }
+  },
+  {
+   "_id": "case-rosyth",
+   "_type": "caseStudy",
+   "title": "Rosyth engineering workshop",
+   "slug": {
+    "current": "rosyth-workshop"
+   },
+   "caseNumber": "02",
+   "sector": "Commercial",
+   "location": "Rosyth",
+   "completed": "2026-05-14",
+   "duration": "6 days on site",
+   "summary": "Daytime machine load made this an easy case for roof solar. Twenty-two panels on the flat roof, two workplace chargers by the door, and monitoring that shows exactly what the roof earns.",
+   "heroImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_4148853d-aad2-4b79-8460-1980b867d290.png",
+    "alt": "Aerial view of a flat-roof workshop with a solar array"
+   },
+   "stats": [
+    {
+     "_key": "ku",
+     "value": "£18,400",
+     "unit": "",
+     "label": "Project budget"
+    },
+    {
+     "_key": "kv",
+     "value": "41",
+     "unit": "%",
+     "label": "Day load covered"
+    },
+    {
+     "_key": "kw",
+     "value": "4.1",
+     "unit": " yrs",
+     "label": "Payback"
+    }
+   ],
+   "systems": [
+    "9.9 kWp solar",
+    "2 × 7 kW workplace chargers",
+    "Load balancing",
+    "Generation monitoring"
+   ],
+   "brief": [
+    {
+     "_type": "block",
+     "_key": "kx",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "ky",
+       "text": "A precision engineering firm running CNC machines from 7am to 5pm. Electricity was their second-largest overhead after wages, and two staff had just bought electric vans.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "kz",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k10",
+       "text": "They needed numbers the finance director could sign off, and an install that didn't stop production.",
+       "marks": []
+      }
+     ]
+    }
+   ],
+   "solution": [
+    {
+     "_type": "block",
+     "_key": "k11",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k12",
+       "text": "Because the load sits almost entirely in daylight hours, nearly everything the roof generates is used on site. That made the payback case straightforward without a battery.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k13",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k14",
+       "text": "22 panels on a ballasted frame — no roof penetrations",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k15",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k16",
+       "text": "Two 7 kW chargers with load balancing against the machine supply",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k17",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k18",
+       "text": "Monitoring dashboard shared with the finance team",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k19",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1a",
+       "text": "Scaffolding went up on a Friday and the system was commissioned the following Thursday, with no downtime on the shop floor.",
+       "marks": []
+      }
+     ]
+    }
+   ],
+   "result": [
+    {
+     "_type": "block",
+     "_key": "k1b",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1c",
+       "text": "The array now covers ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k1d",
+       "text": "41%",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k1e",
+       "text": " of daytime consumption on an average working day, rising above 60% through the summer months.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "callout",
+     "_key": "k1f",
+     "value": "4.1",
+     "unit": " yrs",
+     "label": "Projected payback",
+     "text": "Based on the first six months of metered generation."
+    }
+   ],
+   "gallery": [
+    {
+     "_key": "k1g",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_6d635bdf-2c8b-403c-8d2d-d2dab8dd6576.png",
+     "alt": "Close detail of the panel array edge"
+    },
+    {
+     "_key": "k1h",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_a70be736-2d19-4405-9a41-f4f8ce1d2ca9.png",
+     "alt": "Workplace charger by the entrance"
+    }
+   ],
+   "testimonial": {
+    "quote": "Our workshop bills were the problem. They put 22 panels on the flat roof and a charger by the door, and the quote landed within fifty pounds of the invoice.",
+    "name": "Dougie Hunter",
+    "role": "Operations director, Rosyth"
+   }
+  },
+  {
+   "_id": "case-halbeath",
+   "_type": "caseStudy",
+   "title": "Halbeath, 26 plots on programme",
+   "slug": {
+    "current": "halbeath-development"
+   },
+   "caseNumber": "03",
+   "sector": "New build",
+   "location": "Halbeath",
+   "completed": "2026-08-29",
+   "duration": "14 months, phased",
+   "summary": "Heat pump, underfloor and EV provision on every plot, sequenced with the developer's trades from first fix. Every plot handed over compliant, with commissioning packs ready for the buyer.",
+   "heroImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_a0d95378-3865-45e9-888d-373d4c8c1520.png",
+    "alt": "Completed housing development with solar roofs"
+   },
+   "stats": [
+    {
+     "_key": "k1i",
+     "value": "£412k",
+     "unit": "",
+     "label": "Contract value"
+    },
+    {
+     "_key": "k1j",
+     "value": "26",
+     "unit": "",
+     "label": "Plots delivered"
+    },
+    {
+     "_key": "k1k",
+     "value": "0",
+     "unit": "",
+     "label": "Weeks lost"
+    }
+   ],
+   "systems": [
+    "Air source heat pump per plot",
+    "Ground-floor underfloor",
+    "EV-ready charge point",
+    "Commissioning packs"
+   ],
+   "brief": [
+    {
+     "_type": "block",
+     "_key": "k1l",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1m",
+       "text": "A regional developer building 26 homes in three phases, all needing to meet the New Build Heat Standard. Their previous heating contractor had held up handovers on an earlier site.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k1n",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1o",
+       "text": "The ask was simple: work to their programme, and never be the reason a plot misses completion.",
+       "marks": []
+      }
+     ]
+    }
+   ],
+   "solution": [
+    {
+     "_type": "block",
+     "_key": "k1p",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1q",
+       "text": "We joined at drawing stage and fixed emitter layouts, cylinder positions and outdoor unit locations before the frames were ordered.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k1r",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1s",
+       "text": "A dedicated SK Energy site lead attending the weekly trades meeting",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k1t",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1u",
+       "text": "Underfloor laid ahead of screed on every plot, pressure-tested the same day",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k1v",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1w",
+       "text": "Commissioning and certification completed before snagging, not after",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k1x",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k1y",
+       "text": "Each buyer received a printed handover pack and a walkthrough of their controls.",
+       "marks": []
+      }
+     ]
+    }
+   ],
+   "result": [
+    {
+     "_type": "block",
+     "_key": "k1z",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k20",
+       "text": "All 26 plots completed on programme across three phases. The developer has since appointed us for their next two sites.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "callout",
+     "_key": "k21",
+     "value": "0",
+     "unit": "",
+     "label": "Weeks lost to heating",
+     "text": "Across 14 months and three phases."
+    }
+   ],
+   "gallery": [
+    {
+     "_key": "k22",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_f5ae761d-d161-444b-b959-3f78662a342c.png",
+     "alt": "Plots under construction"
+    },
+    {
+     "_key": "k23",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_5002f371-5b5e-4025-b615-8588fbe19323.png",
+     "alt": "Finished street at dusk"
+    },
+    {
+     "_key": "k24",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_ba5847a5-693e-495c-8540-f6e07ff7310a.png",
+     "alt": "Underfloor pipework on a ground floor"
+    }
+   ],
+   "testimonial": {
+    "quote": "Twenty-six plots, chargers and underfloor on every one, and not a single week lost. They handled the sign-offs we usually chase.",
+    "name": "Ross Bain",
+    "role": "Site manager, Fife developer"
+   }
+  }
+ ],
+ "posts": [
+  {
+   "_id": "post-heat-pump-winter",
+   "_type": "post",
+   "title": "What a heat pump actually costs to run in a Fife winter",
+   "slug": {
+    "current": "heat-pump-running-costs-fife-winter"
+   },
+   "category": "Guide",
+   "readTime": 6,
+   "publishedAt": "2026-10-14",
+   "author": {
+    "name": "Graeme Kerr",
+    "role": "Lead heat pump engineer"
+   },
+   "excerpt": "Twelve months of metered data from four local installs, set against what the same houses paid for gas.",
+   "mainImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171155_8249db3e-bf60-4ddb-9f04-bb386db30d90.png",
+    "alt": "Heat pump outside a house on a frosty morning"
+   },
+   "body": [
+    {
+     "_type": "block",
+     "_key": "k25",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k26",
+       "text": "The question we get asked most is simple: ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k27",
+       "text": "what will it cost me to run?",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k28",
+       "text": " Brochure figures don't help much, so we pulled twelve months of metered data from four homes we installed in and around Dunfermline.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k29",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2a",
+       "text": "The four homes",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k2b",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2c",
+       "text": "A 1970s semi in Dunfermline, cavity-filled, 8 kW unit",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k2d",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2e",
+       "text": "A 1930s terrace in Rosyth, internally insulated, 6 kW unit",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k2f",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2g",
+       "text": "A detached new build in Halbeath, 5 kW unit",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k2h",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2i",
+       "text": "A stone farmhouse in Kinross, 12 kW unit with underfloor",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k2j",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2k",
+       "text": "Each had a previous year of gas or oil bills to compare against.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "callout",
+     "_key": "k2l",
+     "value": "3.4",
+     "unit": " SCOP",
+     "label": "Average across all four",
+     "text": "Measured over the full twelve months, including the coldest week in January."
+    },
+    {
+     "_type": "block",
+     "_key": "k2m",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2n",
+       "text": "What the winter did",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k2o",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2p",
+       "text": "Performance dips when it's cold — that's expected. In the coldest week, the average fell to around 2.6. But that week is short, and the shoulder months more than made up for it.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k2q",
+     "style": "blockquote",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2r",
+       "text": "The house that saved most wasn't the one with the biggest unit. It was the one where we fixed the insulation first.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_key": "k2s",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_9aa38863-93c9-4c2e-8b3b-414580aca847.png",
+     "alt": "Heat pump unit beside a rendered wall",
+     "caption": "The Dunfermline semi: an 8 kW unit on the rear wall."
+    },
+    {
+     "_type": "block",
+     "_key": "k2t",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2u",
+       "text": "What made the difference",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k2v",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k2w",
+       "text": "Two things mattered more than the unit itself: ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k2x",
+       "text": "emitter sizing",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k2y",
+       "text": " and ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k2z",
+       "text": "tariff",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k30",
+       "text": ". Homes on a time-of-use tariff, heating the cylinder overnight, paid noticeably less than those on a flat rate.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k31",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k32",
+       "text": "If you want figures for your own house, a survey is free and comes with a running-cost estimate based on your actual usage.",
+       "marks": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_id": "post-hes-grant",
+   "_type": "post",
+   "title": "Home Energy Scotland grant & loan, explained plainly",
+   "slug": {
+    "current": "home-energy-scotland-grant-loan"
+   },
+   "category": "Funding",
+   "readTime": 4,
+   "publishedAt": "2026-10-02",
+   "author": {
+    "name": "Fiona Wallace",
+    "role": "Customer advisor"
+   },
+   "excerpt": "What's available, what it covers, and the paperwork we handle for you.",
+   "mainImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_9e45e12f-ac7d-4f97-abc0-213323c40517.png",
+    "alt": "System design drawings on a kitchen table"
+   },
+   "body": [
+    {
+     "_type": "block",
+     "_key": "k33",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k34",
+       "text": "Home Energy Scotland runs the main funding scheme for homeowners in Scotland looking at heat pumps, insulation and solar. It combines a ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k35",
+       "text": "grant",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k36",
+       "text": " with an optional ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k37",
+       "text": "interest-free loan",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k38",
+       "text": ".",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k39",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3a",
+       "text": "What it can cover",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k3b",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3c",
+       "text": "Heat pumps, with an uplift in some rural areas",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k3d",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3e",
+       "text": "Insulation and other energy efficiency measures",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k3f",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3g",
+       "text": "Solar PV and batteries, usually through the loan",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k3h",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3i",
+       "text": "Amounts and eligibility change, so we always check the current figures with Home Energy Scotland before we quote.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k3j",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3k",
+       "text": "How it works with us",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k3l",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3m",
+       "text": "You apply to Home Energy Scotland first, and they arrange an assessment. Once approved, we quote against the approved measures and handle the installer paperwork, including MCS certification.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k3n",
+     "style": "blockquote",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3o",
+       "text": "Don't sign a contract before your grant is approved. Work started early isn't eligible.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k3p",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3q",
+       "text": "If you're not sure where to start, book a consultation and we'll walk you through the order of steps.",
+       "marks": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_id": "post-ev-tariff",
+   "_type": "post",
+   "title": "Charging on an off-peak tariff: the numbers",
+   "slug": {
+    "current": "ev-charging-off-peak-tariff"
+   },
+   "category": "EV",
+   "readTime": 3,
+   "publishedAt": "2026-09-18",
+   "author": {
+    "name": "Graeme Kerr",
+    "role": "Lead heat pump engineer"
+   },
+   "excerpt": "Scheduling a 7 kW charger overnight against a flat-rate tariff.",
+   "mainImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_a70be736-2d19-4405-9a41-f4f8ce1d2ca9.png",
+    "alt": "Home EV charger on a driveway"
+   },
+   "body": [
+    {
+     "_type": "block",
+     "_key": "k3r",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3s",
+       "text": "A home charger is only half the saving. The other half is ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k3t",
+       "text": "when",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k3u",
+       "text": " you charge. We compared a typical driver covering 8,000 miles a year on a flat-rate tariff against the same driver scheduling overnight.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "callout",
+     "_key": "k3v",
+     "value": "Up to 60",
+     "unit": "%",
+     "label": "Lower charging cost",
+     "text": "Scheduling overnight on a typical EV tariff versus a flat rate."
+    },
+    {
+     "_type": "block",
+     "_key": "k3w",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3x",
+       "text": "How scheduling works",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k3y",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k3z",
+       "text": "Every charger we fit can be set to start charging during your cheapest hours. Most drivers set it once and forget it.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k40",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k41",
+       "text": "Plug in when you get home",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k42",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k43",
+       "text": "The charger waits for the off-peak window",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k44",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k45",
+       "text": "The car is full by morning",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k46",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k47",
+       "text": "Pairing with solar",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k48",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k49",
+       "text": "If you have solar, the charger can prioritise surplus generation during the day instead — useful if the car is at home.",
+       "marks": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_id": "post-new-engineers",
+   "_type": "post",
+   "title": "Two more engineers join the Dunfermline team",
+   "slug": {
+    "current": "two-engineers-join-dunfermline-team"
+   },
+   "category": "Company news",
+   "readTime": 2,
+   "publishedAt": "2026-09-04",
+   "author": {
+    "name": "SK Energy team",
+    "role": "Dunfermline"
+   },
+   "excerpt": "Taking us to eleven, and cutting survey-to-install times going into winter.",
+   "mainImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_232b61c1-a40f-4a64-904d-4a8aba9a6f93.png",
+    "alt": "The SK Energy installation team in the yard"
+   },
+   "body": [
+    {
+     "_type": "block",
+     "_key": "k4a",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4b",
+       "text": "We've welcomed two new MCS-qualified engineers to the team this month, taking us to ",
+       "marks": []
+      },
+      {
+       "_type": "span",
+       "_key": "k4c",
+       "text": "eleven installers",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k4d",
+       "text": ", all employed directly.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k4e",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4f",
+       "text": "It means shorter waits between survey and install as we head into the busiest season for heat pumps.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k4g",
+     "style": "blockquote",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4h",
+       "text": "We don't subcontract. Growing the team is the only way we take on more work without changing that.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k4i",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4j",
+       "text": "Both will be working across Fife and central Scotland from our Pitreavie base.",
+       "marks": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_id": "post-new-build-standard",
+   "_type": "post",
+   "title": "Specifying to the 2026 standard without redesigning the plot",
+   "slug": {
+    "current": "new-build-heat-standard-specification"
+   },
+   "category": "New build",
+   "readTime": 5,
+   "publishedAt": "2026-08-21",
+   "author": {
+    "name": "Graeme Kerr",
+    "role": "Lead heat pump engineer"
+   },
+   "excerpt": "Four decisions that keep compliance cheap at drawing stage.",
+   "mainImage": {
+    "_type": "image",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_5002f371-5b5e-4025-b615-8588fbe19323.png",
+    "alt": "New-build street with heat pumps and solar roofs"
+   },
+   "body": [
+    {
+     "_type": "block",
+     "_key": "k4k",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4l",
+       "text": "Since the New Build Heat Standard came in, new homes in Scotland need clean heating from the start. The good news: compliance is cheap if it's decided at drawing stage, and expensive if it isn't.",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k4m",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4n",
+       "text": "Four decisions to make early",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k4o",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4p",
+       "text": "Outdoor unit position",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k4q",
+       "text": " — fix it before the landscape plan, not after",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k4r",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4s",
+       "text": "Cylinder space",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k4t",
+       "text": " — a heat pump cylinder is larger than a combi boiler",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k4u",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4v",
+       "text": "Emitters",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k4w",
+       "text": " — underfloor on the ground floor simplifies everything",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_type": "block",
+     "_key": "k4x",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k4y",
+       "text": "EV provision",
+       "marks": [
+        "strong"
+       ]
+      },
+      {
+       "_type": "span",
+       "_key": "k4z",
+       "text": " — run the cable during first fix",
+       "marks": []
+      }
+     ],
+     "listItem": "bullet",
+     "level": 1
+    },
+    {
+     "_key": "k50",
+     "_type": "image",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_f5ae761d-d161-444b-b959-3f78662a342c.png",
+     "alt": "Timber-frame plots under construction",
+     "caption": "Fixing positions at drawing stage avoids rework on site."
+    },
+    {
+     "_type": "block",
+     "_key": "k51",
+     "style": "h2",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k52",
+       "text": "Working to your programme",
+       "marks": []
+      }
+     ]
+    },
+    {
+     "_type": "block",
+     "_key": "k53",
+     "style": "normal",
+     "markDefs": [],
+     "children": [
+      {
+       "_type": "span",
+       "_key": "k54",
+       "text": "We attend trades meetings, lay underfloor ahead of screed, and complete commissioning before snagging, so heating never holds up a handover.",
+       "marks": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

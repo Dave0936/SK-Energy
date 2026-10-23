@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F1F1EF; -webkit-font-smoothing:antialiased; }
+  * { box-sizing:border-box; }
+  a { color:#0E1110; text-decoration:none; }
+  a:hover { color:#3E4B2E; }
+  [data-reveal] { opacity:0; transform:translateY(18px); transition:opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1); }
+  [data-reveal].in { opacity:1; transform:none; }
+  [data-quotes]::-webkit-scrollbar { display:none; }
+</style>
+<script src="image-slot.js"></script>
+<script src="nav-menu.js"></script>
+</helmet>
+
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200"><rect width="320" height="200" fill="#F1F1EF"></rect><circle cx="160" cy="100" r="36" fill="#CBF24C"></circle><text x="160" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#0E1110">SK</text></svg></template>
+
+<div data-sk2 style="font-family:'Satoshi',system-ui,sans-serif;color:#0E1110;background:#F1F1EF;overflow-x:clip">
+
+  <section data-hero style="position:relative;height:100vh;padding:0 12px">
+    <div style="position:sticky;top:0;height:100vh;padding:12px 0;display:flex">
+      <div style="position:relative;flex:1;border-radius:30px;overflow:hidden;background:#0E1110">
+
+        <img data-layer="bg" src="assets/hero-still.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></img>
+        <video data-hero-video data-src="assets/hero-film.mp4" muted="{{ true }}" playsinline="{{ true }}" preload="auto" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease"></video>
+        <div style="position:absolute;inset:0;background:linear-gradient(95deg,rgba(8,12,10,.38) 0%,rgba(8,12,10,.12) 42%,rgba(8,12,10,0) 70%);pointer-events:none"></div>
+        <div data-scrim-b style="position:absolute;inset:0;background:linear-gradient(265deg,rgba(8,12,10,.42) 0%,rgba(8,12,10,.12) 40%,rgba(8,12,10,0) 70%);opacity:0;transition:opacity .5s ease;pointer-events:none"></div>
+
+        <header style="position:relative;z-index:6;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;flex-wrap:wrap">
+          <a href="#" aria-label="SK Energy home" style="display:flex;align-items:center">
+            <img src="assets/sk-logo.svg" alt="SK Energy" style="height:38px;width:161px;flex:none;object-fit:contain;display:block"></img>
+          </a>
+          <nav style="display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.18);padding:6px;border-radius:999px">
+            <div data-svc-menu style="position:relative">
+            <button type="button" data-svc-toggle aria-expanded="false" aria-haspopup="true" style="color:rgba(255,255,255,.9);background:transparent;font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px;border:0;cursor:pointer;font-family:'Satoshi',sans-serif;display:flex;align-items:center;gap:6px" style-hover="background:#fff;color:#0E1110">Services <span data-svc-caret style="display:block;font-size:10px;line-height:1;transition:transform .2s ease">&#9662;</span></button>
+            <div data-svc-panel style="position:absolute;top:calc(100% + 12px);left:-120px;z-index:60;width:min(560px,calc(100vw - 32px));background:#fff;border-radius:22px;padding:10px;box-shadow:0 28px 70px -30px rgba(8,12,10,.7);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:4px;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-6px);transition:opacity .2s ease,transform .2s ease,visibility .2s">
+              <a href="service.html?slug=residential-solar" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Residential solar</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Panels and battery storage for your home</span></a>
+              <a href="service.html?slug=air-source-heat-pumps" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Air source heat pumps</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Low-carbon heating and hot water</span></a>
+              <a href="service.html?slug=ev-charge-points" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">EV charge points</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Home, workplace and fleet charging</span></a>
+              <a href="service.html?slug=commercial-solutions" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Commercial solutions</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Solar and storage for business sites</span></a>
+              <a href="service.html?slug=new-build-services" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">New build services</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Planned into your development</span></a>
+              <a href="service.html?slug=aftercare" style="display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:14px;color:#0E1110" style-hover="background:#F1F1EF;color:#0E1110"><span style="font-size:15px;font-weight:700;letter-spacing:-.01em">Aftercare</span><span style="font-size:13px;line-height:1.4;color:#6C7566">Servicing, monitoring and support</span></a>
+            </div>
+          </div>
+            <a href="#process" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">How it works</a>
+            <a href="work.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">Work</a>
+            <a href="news.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">News</a>
+            <a href="about.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">About</a>
+          </nav>
+          <a href="#quote" style="background:#CBF24C;color:#0E1110;font-weight:700;font-size:14px;padding:12px 22px;border-radius:999px" style-hover="background:#fff">{{ ctaLabel }}</a>
+        </header>
+
+        <div data-scene="0" style="position:absolute;z-index:5;left:0;top:22%;padding:0 22px;max-width:min(560px,50vw);opacity:0;will-change:transform,opacity">
+          <div style="display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.34);border-radius:999px;padding:7px 14px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;text-shadow:0 2px 14px rgba(8,12,10,.8)">
+            <span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>01 · Outside
+          </div>
+          <h2 style="margin:18px 0 0;color:#fff;font-size:clamp(34px,5.2vw,74px);line-height:.98;letter-spacing:-.045em;font-weight:900;text-shadow:0 2px 40px rgba(8,12,10,.6)">Power from<br>your own roof.</h2>
+          <p style="margin:18px 0 0;color:#fff;font-size:clamp(15px,1.3vw,18px);line-height:1.55;max-width:420px;text-shadow:0 2px 22px rgba(8,12,10,.8)">Solar generation and EV charging, sized to how your home actually runs.</p>
+        </div>
+
+        <div data-scene="1" style="position:absolute;z-index:5;right:0;top:22%;padding:0 22px;max-width:min(520px,50vw);text-align:right;display:flex;flex-direction:column;align-items:flex-end;opacity:0;will-change:transform,opacity">
+          <div style="display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.34);border-radius:999px;padding:7px 14px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;text-shadow:0 2px 14px rgba(8,12,10,.8)">
+            <span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>02 · Visibility
+          </div>
+          <h2 style="margin:18px 0 0;color:#fff;font-size:clamp(34px,5.2vw,74px);line-height:.98;letter-spacing:-.045em;font-weight:900;text-shadow:0 2px 40px rgba(8,12,10,.6)">See exactly<br>where it goes.</h2>
+          <p style="margin:18px 0 0;color:#fff;font-size:clamp(15px,1.3vw,18px);line-height:1.55;max-width:420px;text-shadow:0 2px 22px rgba(8,12,10,.8)">Smart metering turns your energy use into something you can read at a glance.</p>
+        </div>
+
+        <div data-scene="2" style="position:absolute;z-index:5;left:0;top:50%;transform:translateY(-50%);padding:0 22px;max-width:min(560px,52vw);opacity:0;will-change:transform,opacity">
+          <div style="display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.34);border-radius:999px;padding:7px 14px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;text-shadow:0 2px 14px rgba(8,12,10,.8)">
+            <span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>03 · Comfort
+          </div>
+          <h2 style="margin:18px 0 0;color:#fff;font-size:clamp(34px,5.2vw,74px);line-height:.98;letter-spacing:-.045em;font-weight:900;text-shadow:0 2px 40px rgba(8,12,10,.6)">Warm rooms,<br>quietly.</h2>
+          <p style="margin:18px 0 0;color:#fff;font-size:clamp(15px,1.3vw,18px);line-height:1.55;max-width:420px;text-shadow:0 2px 22px rgba(8,12,10,.8)">A heat pump keeps every space comfortable at a fraction of the running cost.</p>
+        </div>
+
+        <div data-scene="3" style="position:absolute;z-index:5;left:0;top:50%;transform:translateY(-50%);padding:0 22px;max-width:min(480px,44vw);opacity:0;will-change:transform,opacity">
+          <div style="display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.34);border-radius:999px;padding:7px 14px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;text-shadow:0 2px 14px rgba(8,12,10,.8)">
+            <span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>04 · Together
+          </div>
+          <h2 style="margin:18px 0 0;color:#fff;font-size:clamp(34px,5.2vw,74px);line-height:.98;letter-spacing:-.045em;font-weight:900;text-shadow:0 2px 40px rgba(8,12,10,.6)">Energy that<br>just works.</h2>
+          <p style="margin:18px 0 0;color:#fff;font-size:clamp(15px,1.3vw,18px);line-height:1.55;max-width:420px;text-shadow:0 2px 22px rgba(8,12,10,.8)">Lower bills, less carbon, and a home your family never has to think about.</p>
+        </div>
+
+        <div data-hero-cta style="position:absolute;z-index:6;left:22px;bottom:16%;display:flex;flex-wrap:wrap;gap:10px;opacity:0;pointer-events:none">
+          <a href="#quote" style="background:#CBF24C;color:#0E1110;font-weight:700;font-size:15px;padding:16px 28px;border-radius:999px" style-hover="background:#fff">Build your energy system</a>
+          <a href="#process" style="color:#fff;font-weight:500;font-size:15px;padding:15px 22px;border-radius:999px;border:1px solid rgba(255,255,255,.34)" style-hover="background:rgba(255,255,255,.18);color:#fff">How it works</a>
+        </div>
+
+        <div data-hero-rail style="position:absolute;z-index:6;left:0;right:0;bottom:0;padding:0 22px 22px;display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between">
+          <div style="display:grid;grid-template-columns:repeat(4,minmax(52px,104px));gap:10px;flex:0 1 auto">
+            <span style="display:block"><span data-rail="0" style="display:block;height:2px;border-radius:2px;background:rgba(255,255,255,.26);overflow:hidden"><span style="display:block;height:100%;width:0%;background:#CBF24C"></span></span><span style="display:block;margin-top:8px;color:rgba(255,255,255,.72);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase">Outside</span></span>
+            <span style="display:block"><span data-rail="1" style="display:block;height:2px;border-radius:2px;background:rgba(255,255,255,.26);overflow:hidden"><span style="display:block;height:100%;width:0%;background:#CBF24C"></span></span><span style="display:block;margin-top:8px;color:rgba(255,255,255,.72);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase">Visibility</span></span>
+            <span style="display:block"><span data-rail="2" style="display:block;height:2px;border-radius:2px;background:rgba(255,255,255,.26);overflow:hidden"><span style="display:block;height:100%;width:0%;background:#CBF24C"></span></span><span style="display:block;margin-top:8px;color:rgba(255,255,255,.72);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase">Comfort</span></span>
+            <span style="display:block"><span data-rail="3" style="display:block;height:2px;border-radius:2px;background:rgba(255,255,255,.26);overflow:hidden"><span style="display:block;height:100%;width:0%;background:#CBF24C"></span></span><span style="display:block;margin-top:8px;color:rgba(255,255,255,.72);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase">Together</span></span>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:22px;opacity:.95">
+            <img src="assets/mcs-w.png" alt="MCS certified" style="height:26px;width:83px;flex:none;object-fit:contain;display:block;filter:drop-shadow(0 2px 10px rgba(8,12,10,.65))"></img>
+            <img src="assets/trustmark-white.png" alt="TrustMark Government Endorsed Quality" style="height:21px;width:99px;flex:none;object-fit:contain;display:block;filter:drop-shadow(0 2px 10px rgba(8,12,10,.65))"></img>
+            <img src="assets/trustpilot-white.png" alt="Trustpilot" style="height:19px;width:78px;flex:none;object-fit:contain;display:block;filter:drop-shadow(0 2px 10px rgba(8,12,10,.65))"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="max-width:1280px;margin:0 auto;padding:96px 24px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px;align-items:start">
+      <div data-reveal style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(14,17,16,.16);border-radius:999px;padding:8px 15px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566;align-self:start;justify-self:start">
+        <span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>About SK Energy
+      </div>
+      <h2 data-magic style="margin:0;grid-column:span 2;font-size:clamp(28px,3.9vw,54px);line-height:1.1;letter-spacing:-.035em;font-weight:700;text-wrap:pretty">A Fife-based renewable energy team helping homes and businesses cut bills and carbon with systems specified honestly and installed to last.</h2>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:56px">
+      <div data-reveal style="background:#fff;border-radius:22px;padding:24px;min-height:180px;display:flex;flex-direction:column;justify-content:space-between">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566;border-bottom:1px solid rgba(14,17,16,.1);padding-bottom:14px">Experience</span>
+        <span><span style="display:block;font-size:clamp(34px,4vw,50px);line-height:1;letter-spacing:-.04em;font-weight:900">12<span style="color:#8CC63F">+</span></span><span style="display:block;margin-top:8px;color:#6C7566;font-size:13px">Years installing across central Scotland</span></span>
+      </div>
+      <div data-reveal style="background:#0E1110;border-radius:22px;padding:24px;min-height:180px;display:flex;flex-direction:column;justify-content:space-between">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.5);border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:14px">Delivered</span>
+        <span><span style="display:block;color:#fff;font-size:clamp(34px,4vw,50px);line-height:1;letter-spacing:-.04em;font-weight:900">1,400<span style="color:#CBF24C">+</span></span><span style="display:block;margin-top:8px;color:rgba(255,255,255,.66);font-size:13px">Systems commissioned for homes and sites</span></span>
+      </div>
+      <div data-reveal style="background:#fff;border-radius:22px;padding:24px;min-height:180px;display:flex;flex-direction:column;justify-content:space-between">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566;border-bottom:1px solid rgba(14,17,16,.1);padding-bottom:14px">Scope</span>
+        <span><span style="display:block;font-size:clamp(34px,4vw,50px);line-height:1;letter-spacing:-.04em;font-weight:900">5</span><span style="display:block;margin-top:8px;color:#6C7566;font-size:13px">Technologies under one contract</span></span>
+      </div>
+      <div data-reveal style="background:#CBF24C;border-radius:22px;padding:24px;min-height:180px;display:flex;flex-direction:column;justify-content:space-between">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#46531F;border-bottom:1px solid rgba(14,17,16,.16);padding-bottom:14px">Our people</span>
+        <span><span style="display:block;font-size:clamp(34px,4vw,50px);line-height:1;letter-spacing:-.04em;font-weight:900">1 team</span><span style="display:block;margin-top:8px;color:#46531F;font-size:13px">Survey, install and aftercare — never subcontracted</span></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" style="max-width:1280px;margin:0 auto;padding:96px 24px 0">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px">
+      <h2 data-reveal style="margin:0;font-size:clamp(28px,3.6vw,50px);line-height:1.05;letter-spacing:-.04em;font-weight:700;max-width:540px">What we install</h2>
+      <p data-reveal style="margin:0;max-width:380px;color:#6C7566;font-size:15px;line-height:1.6">Five services that work better together — specified around your property, your usage and your plans, not a package.</p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:36px">
+      <article data-reveal style="position:relative;border-radius:24px;overflow:hidden;min-height:430px;display:flex;flex-direction:column;justify-content:flex-end">
+        <div style="position:absolute;inset:0"><image-slot id="sk2-svc-solar" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_c4940355-0fdd-4c13-87a6-381d169d2f4e.png" shape="rect" placeholder="solar panels on a roof"></image-slot></div>
+        <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,12,10,0) 38%,rgba(8,12,10,.76) 100%);pointer-events:none"></div>
+        <div style="position:relative;padding:24px;pointer-events:none">
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBF24C">01</div>
+          <h3 style="margin:10px 0 8px;color:#fff;font-size:25px;letter-spacing:-.03em;font-weight:700"><a href="service.html?slug=residential-solar" style="color:inherit" style-hover="color:inherit;text-decoration:underline">Residential solar &amp; battery storage &rarr;</a></h3>
+          <p style="margin:0;color:rgba(255,255,255,.82);font-size:14px;line-height:1.55;max-width:340px">Roof or ground-mount arrays sized to your consumption, with storage so the power you generate is the power you use.</p>
+        </div>
+      </article>
+
+      <article data-reveal style="background:#fff;border-radius:24px;padding:24px;min-height:430px;display:flex;flex-direction:column;justify-content:space-between">
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">02</div>
+          <h3 style="margin:10px 0 8px;font-size:25px;letter-spacing:-.03em;font-weight:700"><a href="service.html?slug=air-source-heat-pumps" style="color:inherit" style-hover="color:inherit;text-decoration:underline">Air source heat pumps &rarr;</a></h3>
+          <p style="margin:0;color:#6C7566;font-size:14px;line-height:1.55">Design, installation and maintenance of heating that runs at a fraction of the carbon of gas — with emitters sized room by room.</p>
+        </div>
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:14px">
+          <div>
+            <div style="font-size:44px;line-height:1;letter-spacing:-.04em;font-weight:900">3.8<span style="font-size:.4em"> SCOP</span></div>
+            <div style="margin-top:6px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Typical performance</div>
+          </div>
+          <div style="width:148px;height:132px;border-radius:18px;overflow:hidden;flex:none"><image-slot id="sk2-svc-ashp" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_9aa38863-93c9-4c2e-8b3b-414580aca847.png" shape="rounded" radius="18" placeholder="heat pump unit"></image-slot></div>
+        </div>
+      </article>
+
+      <article data-reveal style="background:#fff;border-radius:24px;padding:24px;min-height:430px;display:flex;flex-direction:column;justify-content:space-between">
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">03</div>
+          <h3 style="margin:10px 0 8px;font-size:25px;letter-spacing:-.03em;font-weight:700"><a href="service.html?slug=ev-charge-points" style="color:inherit" style-hover="color:inherit;text-decoration:underline">EV charge points &rarr;</a></h3>
+          <p style="margin:0;color:#6C7566;font-size:14px;line-height:1.55">Home and workplace chargers with smart monitoring, load balancing and tariff scheduling so you charge on the cheapest — and cleanest — hours.</p>
+        </div>
+        <div style="border-radius:18px;overflow:hidden;height:196px"><image-slot id="sk2-svc-ev" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_a70be736-2d19-4405-9a41-f4f8ce1d2ca9.png" shape="rounded" radius="18" placeholder="EV charger on a driveway"></image-slot></div>
+      </article>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin-top:14px">
+      <article data-reveal style="background:#fff;border-radius:24px;padding:24px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+        <div style="flex:1 1 200px;min-width:0">
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">04</div>
+          <h3 style="margin:10px 0 8px;font-size:23px;letter-spacing:-.03em;font-weight:700"><a href="service.html?slug=commercial-solutions" style="color:inherit" style-hover="color:inherit;text-decoration:underline">Commercial solutions &rarr;</a></h3>
+          <p style="margin:0;color:#6C7566;font-size:14px;line-height:1.55">Scalable systems for businesses and industrial property — designed around site demand, future growth and keeping you operating throughout.</p>
+        </div>
+        <div style="width:150px;height:130px;border-radius:18px;overflow:hidden;flex:none"><image-slot id="sk2-svc-comm" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_4148853d-aad2-4b79-8460-1980b867d290.png" shape="rounded" radius="18" placeholder="commercial rooftop array"></image-slot></div>
+      </article>
+      <article data-reveal style="background:#0E1110;border-radius:24px;padding:24px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+        <div style="flex:1 1 200px;min-width:0">
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBF24C">05</div>
+          <h3 style="margin:10px 0 8px;color:#fff;font-size:23px;letter-spacing:-.03em;font-weight:700"><a href="service.html?slug=new-build-services" style="color:inherit" style-hover="color:inherit;text-decoration:underline">New build services &rarr;</a></h3>
+          <p style="margin:0;color:rgba(255,255,255,.72);font-size:14px;line-height:1.55">Clean energy systems written into the build programme, coordinated with your trades and signed off to hand over on time.</p>
+        </div>
+        <div style="width:150px;height:130px;border-radius:18px;overflow:hidden;flex:none"><image-slot id="sk2-svc-nb" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_f5ae761d-d161-444b-b959-3f78662a342c.png" shape="rounded" radius="18" placeholder="new build site"></image-slot></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="process" style="max-width:1280px;margin:0 auto;padding:96px 24px 0">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px">
+      <h2 data-reveal style="margin:0;font-size:clamp(28px,3.6vw,50px);line-height:1.05;letter-spacing:-.04em;font-weight:700;max-width:520px">How a job runs, start to switch-on</h2>
+      <p data-reveal style="margin:0;max-width:360px;color:#6C7566;font-size:15px;line-height:1.6">No hard sell, no guesswork. You get numbers you can check before anything is ordered.</p>
+    </div>
+
+    <div style="margin-top:36px;display:flex;flex-direction:column;gap:22px">
+      <div style="position:sticky;top:70px">
+        <div style="background:#fff;border-radius:26px;padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;box-shadow:0 24px 60px -40px rgba(8,12,10,.6)">
+          <div style="padding:20px;display:flex;flex-direction:column;gap:16px;justify-content:space-between;min-height:280px">
+            <div>
+              <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Step 01</div>
+              <h3 style="margin:14px 0 12px;font-size:clamp(24px,3vw,36px);letter-spacing:-.04em;font-weight:700;line-height:1.05">Book a consultation</h3>
+              <p style="margin:0;color:#6C7566;font-size:15px;line-height:1.6;max-width:420px">Tell us about your property, energy use and priorities. We answer your questions and establish the right starting point, with no obligation.</p>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px">
+              <span style="background:#F1F1EF;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">No obligation</span>
+              <span style="background:#F1F1EF;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">Property survey</span>
+            </div>
+          </div>
+          <div style="border-radius:20px;overflow:hidden;min-height:280px;background:#E8E8E5"><image-slot id="sk2-step-1" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171117_7283792c-937e-4c5f-862c-5e41b370f885.png" shape="rounded" radius="20" placeholder="engineer surveying a home"></image-slot></div>
+        </div>
+      </div>
+
+      <div style="position:sticky;top:90px">
+        <div style="background:#CBF24C;border-radius:26px;padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;box-shadow:0 24px 60px -40px rgba(8,12,10,.6)">
+          <div style="padding:20px;display:flex;flex-direction:column;gap:16px;justify-content:space-between;min-height:280px">
+            <div>
+              <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#46531F">Step 02</div>
+              <h3 style="margin:14px 0 12px;font-size:clamp(24px,3vw,36px);letter-spacing:-.04em;font-weight:700;line-height:1.05">Bespoke system design</h3>
+              <p style="margin:0;color:#3B4522;font-size:15px;line-height:1.6;max-width:420px">Our specialists turn the survey into a considered design, balancing performance, aesthetics and budget around your long-term goals.</p>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px">
+              <span style="background:rgba(255,255,255,.6);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">Performance modelled</span>
+              <span style="background:rgba(255,255,255,.6);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">Costed clearly</span>
+            </div>
+          </div>
+          <div style="border-radius:20px;overflow:hidden;min-height:280px;background:#B9DE45"><image-slot id="sk2-step-2" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_9e45e12f-ac7d-4f97-abc0-213323c40517.png" shape="rounded" radius="20" placeholder="system design drawing or quote"></image-slot></div>
+        </div>
+      </div>
+
+      <div style="position:sticky;top:110px">
+        <div style="background:#fff;border-radius:26px;padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;box-shadow:0 24px 60px -40px rgba(8,12,10,.6)">
+          <div style="padding:20px;display:flex;flex-direction:column;gap:16px;justify-content:space-between;min-height:280px">
+            <div>
+              <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Step 03</div>
+              <h3 style="margin:14px 0 12px;font-size:clamp(24px,3vw,36px);letter-spacing:-.04em;font-weight:700;line-height:1.05">Professional installation</h3>
+              <p style="margin:0;color:#6C7566;font-size:15px;line-height:1.6;max-width:420px">Our accredited team manages installation safely and efficiently, with careful workmanship and minimal disruption to your day.</p>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px">
+              <span style="background:#F1F1EF;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">MCS accredited</span>
+              <span style="background:#F1F1EF;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">Minimal disruption</span>
+            </div>
+          </div>
+          <div style="border-radius:20px;overflow:hidden;min-height:280px;background:#E8E8E5"><image-slot id="sk2-step-3" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171116_7ea3c33e-9e2c-401d-ad81-8bf10d9f69a3.png" shape="rounded" radius="20" placeholder="install in progress"></image-slot></div>
+        </div>
+      </div>
+
+      <div style="position:sticky;top:130px">
+        <div style="background:#0E1110;border-radius:26px;padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;box-shadow:0 24px 60px -40px rgba(8,12,10,.7)">
+          <div style="padding:20px;display:flex;flex-direction:column;gap:16px;justify-content:space-between;min-height:280px">
+            <div>
+              <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBF24C">Step 04</div>
+              <h3 style="margin:14px 0 12px;color:#fff;font-size:clamp(24px,3vw,36px);letter-spacing:-.04em;font-weight:700;line-height:1.05">Energy independence</h3>
+              <p style="margin:0;color:rgba(255,255,255,.74);font-size:15px;line-height:1.6;max-width:420px">Once your system is live we help you understand its performance, and stay available for monitoring, maintenance and aftercare.</p>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px">
+              <span style="background:rgba(255,255,255,.1);color:rgba(255,255,255,.84);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">Ongoing aftercare</span>
+              <span style="background:rgba(255,255,255,.1);color:rgba(255,255,255,.84);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500">Performance monitoring</span>
+            </div>
+          </div>
+          <div style="border-radius:20px;overflow:hidden;min-height:280px;background:#1B1F1C"><image-slot id="sk2-step-4" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171117_1452aa6d-9313-4de6-a783-a8d5795bf606.png" shape="rounded" radius="20" placeholder="service visit"></image-slot></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="newbuild" style="padding:96px 12px 0">
+    <div data-reveal style="position:relative;border-radius:30px;overflow:hidden;min-height:520px;display:flex;align-items:flex-end">
+      <div style="position:absolute;inset:0"><image-slot id="sk2-newbuild" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_5002f371-5b5e-4025-b615-8588fbe19323.png" shape="rect" placeholder="new build development, wide"></image-slot></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,12,10,.74) 0%,rgba(8,12,10,.34) 55%,rgba(8,12,10,.08) 100%);pointer-events:none"></div>
+      <div style="position:relative;padding:44px 28px;max-width:640px">
+        <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBF24C">For developers &amp; commercial sites</div>
+        <h2 style="margin:16px 0 14px;color:#fff;font-size:clamp(28px,4vw,52px);line-height:1.03;letter-spacing:-.04em;font-weight:700">Built in from the first drawing, not bolted on at handover.</h2>
+        <p style="margin:0 0 26px;color:rgba(255,255,255,.84);font-size:16px;line-height:1.6;max-width:480px">We work to your build programme — coordinating solar, storage, heat pumps and EV provision with the trades already on site, so plots complete compliant and on schedule.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px">
+          <a href="#quote" style="background:#CBF24C;color:#0E1110;font-weight:700;font-size:15px;padding:15px 26px;border-radius:999px" style-hover="background:#fff">Talk to our new build team</a>
+          <a href="#services" style="color:#fff;font-weight:500;font-size:15px;padding:14px 24px;border-radius:999px;border:1px solid rgba(255,255,255,.32)" style-hover="background:rgba(255,255,255,.18);color:#fff">Explore new build services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" data-cases style="position:relative;height:320vh;padding:96px 12px 0">
+    <div style="position:sticky;top:0;height:100vh;padding:12px 0;display:flex">
+      <div style="position:relative;flex:1;border-radius:30px;overflow:hidden;background:#0E1110">
+        <div data-cases-track style="position:absolute;inset:0;display:flex;will-change:transform">
+
+          <article style="position:relative;flex:0 0 100%;height:100%;overflow:hidden">
+            <div style="position:absolute;inset:0"><image-slot id="sk2-case-1" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_70a94f75-2687-42d9-b10a-ac92ecc339d2.png" shape="rect" placeholder="Kinross farmhouse"></image-slot></div>
+            <div style="position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,12,10,.66) 0%,rgba(8,12,10,.22) 55%,rgba(8,12,10,.06) 100%);pointer-events:none"></div>
+            <div style="position:absolute;left:0;right:0;bottom:0;padding:28px;display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between">
+              <div style="background:rgba(255,255,255,.96);border-radius:26px;padding:26px;max-width:460px">
+                <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Case 01 — Residential retrofit</div>
+                <h3 style="margin:14px 0 10px;font-size:clamp(23px,3vw,34px);line-height:1.04;letter-spacing:-.04em;font-weight:700"><a href="case-study.html?slug=kinross-farmhouse" style="color:inherit" style-hover="color:#46531F">Kinross farmhouse, off the oil &rarr;</a></h3>
+                <p style="margin:0 0 20px;color:#6C7566;font-size:15px;line-height:1.6">A 1920s stone farmhouse running on an oil boiler. Solar with storage, a 12&nbsp;kW heat pump and underfloor through the ground floor, staged so the family stayed in the house throughout.</p>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:16px;border-top:1px solid rgba(14,17,16,.12);padding-top:18px">
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">&pound;34,600</div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Budget</div></div>
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">&pound;2,150<span style="font-size:.6em">/yr</span></div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Energy saved</div></div>
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">3 weeks</div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">On site</div></div>
+                </div>
+              </div>
+              <div style="display:flex;flex-wrap:wrap;gap:8px;max-width:320px">
+                <span style="border:1px solid rgba(255,255,255,.34);color:#fff;border-radius:999px;padding:8px 14px;font-size:13px">6.8 kWp solar</span>
+                <span style="border:1px solid rgba(255,255,255,.34);color:#fff;border-radius:999px;padding:8px 14px;font-size:13px">10 kWh battery</span>
+                <span style="border:1px solid rgba(255,255,255,.34);color:#fff;border-radius:999px;padding:8px 14px;font-size:13px">12 kW ASHP</span>
+              </div>
+            </div>
+          </article>
+
+          <article style="position:relative;flex:0 0 100%;height:100%;overflow:hidden">
+            <div style="position:absolute;inset:0"><image-slot id="sk2-case-2" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_4148853d-aad2-4b79-8460-1980b867d290.png" shape="rect" placeholder="Rosyth workshop"></image-slot></div>
+            <div style="position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,12,10,.66) 0%,rgba(8,12,10,.22) 55%,rgba(8,12,10,.06) 100%);pointer-events:none"></div>
+            <div style="position:absolute;left:0;right:0;bottom:0;padding:28px;display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between">
+              <div style="background:rgba(255,255,255,.96);border-radius:26px;padding:26px;max-width:460px">
+                <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Case 02 — Commercial</div>
+                <h3 style="margin:14px 0 10px;font-size:clamp(23px,3vw,34px);line-height:1.04;letter-spacing:-.04em;font-weight:700"><a href="case-study.html?slug=rosyth-workshop" style="color:inherit" style-hover="color:#46531F">Rosyth engineering workshop &rarr;</a></h3>
+                <p style="margin:0 0 20px;color:#6C7566;font-size:15px;line-height:1.6">Daytime machine load made this an easy case for roof solar. Twenty-two panels on the flat roof, two workplace chargers by the door, and monitoring that shows exactly what the roof earns.</p>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:16px;border-top:1px solid rgba(14,17,16,.12);padding-top:18px">
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">&pound;18,400</div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Budget</div></div>
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">41<span style="font-size:.6em">%</span></div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Day load covered</div></div>
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">4.1 yrs</div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Payback</div></div>
+                </div>
+              </div>
+              <div style="display:flex;flex-wrap:wrap;gap:8px;max-width:320px">
+                <span style="border:1px solid rgba(255,255,255,.34);color:#fff;border-radius:999px;padding:8px 14px;font-size:13px">9.9 kWp solar</span>
+                <span style="border:1px solid rgba(255,255,255,.34);color:#fff;border-radius:999px;padding:8px 14px;font-size:13px">2 &times; 7 kW chargers</span>
+              </div>
+            </div>
+          </article>
+
+          <article style="position:relative;flex:0 0 100%;height:100%;overflow:hidden">
+            <div style="position:absolute;inset:0"><image-slot id="sk2-case-3" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_a0d95378-3865-45e9-888d-373d4c8c1520.png" shape="rect" placeholder="Halbeath development"></image-slot></div>
+            <div style="position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,12,10,.66) 0%,rgba(8,12,10,.22) 55%,rgba(8,12,10,.06) 100%);pointer-events:none"></div>
+            <div style="position:absolute;left:0;right:0;bottom:0;padding:28px;display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between">
+              <div style="background:rgba(255,255,255,.96);border-radius:26px;padding:26px;max-width:460px">
+                <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Case 03 — New build</div>
+                <h3 style="margin:14px 0 10px;font-size:clamp(23px,3vw,34px);line-height:1.04;letter-spacing:-.04em;font-weight:700"><a href="case-study.html?slug=halbeath-development" style="color:inherit" style-hover="color:#46531F">Halbeath, 26 plots on programme &rarr;</a></h3>
+                <p style="margin:0 0 20px;color:#6C7566;font-size:15px;line-height:1.6">Heat pump, underfloor and EV provision on every plot, sequenced with the developer's trades from first fix. Every plot handed over compliant, with commissioning packs ready for the buyer.</p>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:16px;border-top:1px solid rgba(14,17,16,.12);padding-top:18px">
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">&pound;412k</div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Contract</div></div>
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">26</div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Plots</div></div>
+                  <div><div style="font-size:22px;letter-spacing:-.03em;font-weight:900">0</div><div style="margin-top:4px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6C7566">Weeks lost</div></div>
+                </div>
+              </div>
+              <div style="display:flex;flex-wrap:wrap;gap:8px;max-width:320px">
+                <span style="border:1px solid rgba(255,255,255,.34);color:#fff;border-radius:999px;padding:8px 14px;font-size:13px">ASHP per plot</span>
+                <span style="border:1px solid rgba(255,255,255,.34);color:#fff;border-radius:999px;padding:8px 14px;font-size:13px">EV ready</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="position:absolute;top:0;left:0;right:0;padding:26px 28px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;pointer-events:none">
+          <div>
+            <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBF24C">Selected work</div>
+            <h2 style="margin:10px 0 0;color:#fff;font-size:clamp(23px,3.2vw,42px);line-height:1.02;letter-spacing:-.04em;font-weight:700">Three jobs, start to finish</h2>
+          </div>
+          <div style="display:flex;gap:6px;align-items:center">
+            <span data-case-dot="0" style="width:26px;height:3px;border-radius:2px;background:#CBF24C;display:block"></span>
+            <span data-case-dot="1" style="width:26px;height:3px;border-radius:2px;background:rgba(255,255,255,.3);display:block"></span>
+            <span data-case-dot="2" style="width:26px;height:3px;border-radius:2px;background:rgba(255,255,255,.3);display:block"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <sc-if value="{{ showTestimonials }}" hint-placeholder-val="{{ true }}">
+  <section style="max-width:1280px;margin:0 auto;padding:96px 24px 0">
+    <div style="display:grid;grid-template-columns:minmax(240px,1fr) minmax(0,2fr);gap:22px;align-items:stretch">
+      <div data-reveal style="display:flex;flex-direction:column;justify-content:space-between;gap:28px;padding-right:18px">
+        <h2 style="margin:0;font-size:clamp(28px,3.6vw,48px);line-height:1.04;letter-spacing:-.04em;font-weight:700">What customers tell us after</h2>
+        <div style="display:flex;flex-direction:column;gap:22px">
+          <div style="display:flex;align-items:center;gap:14px">
+            <span style="font-size:54px;line-height:1;letter-spacing:-.05em;font-weight:900">4.9</span>
+            <div style="font-size:13px;color:#6C7566;line-height:1.45">Average rating across<br>verified installs</div>
+          </div>
+          <div style="display:flex;gap:8px">
+            <button type="button" data-quotes-prev aria-label="Previous testimonials" style="width:46px;height:46px;border-radius:14px;border:0;background:#fff;color:#0E1110;font-size:17px;cursor:pointer;display:flex;align-items:center;justify-content:center" style-hover="background:#CBF24C">&larr;</button>
+            <button type="button" data-quotes-next aria-label="Next testimonials" style="width:46px;height:46px;border-radius:14px;border:0;background:#0E1110;color:#fff;font-size:17px;cursor:pointer;display:flex;align-items:center;justify-content:center" style-hover="background:#3E4B2E">&rarr;</button>
+          </div>
+        </div>
+      </div>
+      <div data-quotes style="display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding-bottom:4px">
+        <figure style="margin:0;flex:0 0 calc(50% - 7px);scroll-snap-align:start;background:#fff;border-radius:26px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+          <blockquote style="margin:0;font-size:18px;line-height:1.5;letter-spacing:-.015em;text-wrap:pretty">"The survey was the first one that told us what not to spend money on. Panels, battery and the heat pump went in over two weeks and the house has been warmer since."</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:12px">
+            <span style="width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none;background:#CBF24C;color:#0E1110;font-weight:900;font-size:14px">CM</span>
+            <span><span style="display:block;font-weight:700;font-size:15px">Claire M.</span><span style="display:block;color:#6C7566;font-size:13px">Solar + ASHP retrofit, Dunfermline</span></span>
+          </figcaption>
+        </figure>
+        <figure style="margin:0;flex:0 0 calc(50% - 7px);scroll-snap-align:start;background:#0E1110;border-radius:26px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+          <blockquote style="margin:0;color:#fff;font-size:18px;line-height:1.5;letter-spacing:-.015em;text-wrap:pretty">"Twenty-six plots, chargers and underfloor on every one, and not a single week lost. They handled the sign-offs we usually chase."</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:12px">
+            <span style="width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none;background:#CBF24C;color:#0E1110;font-weight:900;font-size:14px">RB</span>
+            <span><span style="display:block;color:#fff;font-weight:700;font-size:15px">Ross Bain</span><span style="display:block;color:rgba(255,255,255,.6);font-size:13px">Site manager, Fife developer</span></span>
+          </figcaption>
+        </figure>
+        <figure style="margin:0;flex:0 0 calc(50% - 7px);scroll-snap-align:start;background:#fff;border-radius:26px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+          <blockquote style="margin:0;font-size:18px;line-height:1.5;letter-spacing:-.015em;text-wrap:pretty">"Our workshop bills were the problem. They put 22 panels on the flat roof and a charger by the door, and the quote landed within fifty pounds of the invoice."</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:12px">
+            <span style="width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none;background:#E8E8E5;color:#0E1110;font-weight:900;font-size:14px">DH</span>
+            <span><span style="display:block;font-weight:700;font-size:15px">Dougie Hunter</span><span style="display:block;color:#6C7566;font-size:13px">Commercial solar + EV, Rosyth</span></span>
+          </figcaption>
+        </figure>
+        <figure style="margin:0;flex:0 0 calc(50% - 7px);scroll-snap-align:start;background:#fff;border-radius:26px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+          <blockquote style="margin:0;font-size:18px;line-height:1.5;letter-spacing:-.015em;text-wrap:pretty">"Underfloor through the whole ground floor and a heat pump outside. Two winters in and the bills have not moved — and when we had a question, the same engineer answered."</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:12px">
+            <span style="width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none;background:#E8E8E5;color:#0E1110;font-weight:900;font-size:14px">SF</span>
+            <span><span style="display:block;font-weight:700;font-size:15px">Sarah Finlay</span><span style="display:block;color:#6C7566;font-size:13px">Underfloor + ASHP, Kinross</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  </sc-if>
+
+  <section id="news" style="max-width:1280px;margin:0 auto;padding:96px 24px 0">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px">
+      <h2 data-reveal style="margin:0;font-size:clamp(28px,3.6vw,50px);line-height:1.04;letter-spacing:-.04em;font-weight:700">News &amp; insights</h2>
+      <a data-reveal href="news.html" style="display:inline-flex;align-items:center;gap:9px;background:#0E1110;color:#fff;border-radius:999px;padding:13px 22px;font-size:14px;font-weight:700" style-hover="background:#CBF24C;color:#0E1110">All articles <span style="font-size:16px">&rarr;</span></a>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:14px;margin-top:34px;align-items:stretch">
+      <a data-reveal href="news-article.html?slug=heat-pump-running-costs-fife-winter" style="position:relative;border-radius:26px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;min-height:520px;color:#fff">
+        <div style="position:absolute;inset:0;background:#0E1110"><image-slot id="sk2-news-1" src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171155_8249db3e-bf60-4ddb-9f04-bb386db30d90.png" shape="rect" placeholder="heat pump install"></image-slot></div>
+        <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,12,10,0) 38%,rgba(8,12,10,.82) 100%);pointer-events:none"></div>
+        <div style="position:relative;padding:28px;pointer-events:none">
+          <div style="display:inline-flex;align-items:center;gap:8px;background:#CBF24C;color:#0E1110;border-radius:999px;padding:6px 12px;font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Latest · Guide · 6 min</div>
+          <h3 style="margin:16px 0 10px;font-size:clamp(24px,2.8vw,38px);line-height:1.04;letter-spacing:-.04em;font-weight:700;color:#fff;text-wrap:balance">What a heat pump actually costs to run in a Fife winter</h3>
+          <p style="margin:0;color:rgba(255,255,255,.84);font-size:15px;line-height:1.55;max-width:460px">Twelve months of metered data from four local installs, set against what the same houses paid for gas.</p>
+          <div style="margin-top:20px;display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:#fff">Read the article <span>&rarr;</span></div>
+        </div>
+      </a>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <a data-reveal href="news-article.html?slug=home-energy-scotland-grant-loan" style="flex:1 1 0;min-height:0;background:#fff;border-radius:22px;padding:10px;display:flex;gap:16px;align-items:stretch;color:#0E1110" style-hover="background:#CBF24C">
+          <span style="width:clamp(104px,26%,150px);flex:none;border-radius:16px;overflow:hidden;background:#E8E8E5;display:block;min-height:96px"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_9e45e12f-ac7d-4f97-abc0-213323c40517.png" alt="System design drawings" style="width:100%;height:100%;object-fit:cover;display:block"></img></span>
+          <span style="flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:6px 8px 6px 0">
+            <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Funding · 4 min</span>
+            <span style="font-size:clamp(16px,1.5vw,19px);line-height:1.2;letter-spacing:-.025em;font-weight:700;text-wrap:pretty">Home Energy Scotland grant &amp; loan, explained plainly</span>
+          </span>
+        </a>
+        <a data-reveal href="news-article.html?slug=ev-charging-off-peak-tariff" style="flex:1 1 0;min-height:0;background:#fff;border-radius:22px;padding:10px;display:flex;gap:16px;align-items:stretch;color:#0E1110" style-hover="background:#CBF24C">
+          <span style="width:clamp(104px,26%,150px);flex:none;border-radius:16px;overflow:hidden;background:#E8E8E5;display:block;min-height:96px"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_a70be736-2d19-4405-9a41-f4f8ce1d2ca9.png" alt="Home EV charger" style="width:100%;height:100%;object-fit:cover;display:block"></img></span>
+          <span style="flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:6px 8px 6px 0">
+            <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">EV · 3 min</span>
+            <span style="font-size:clamp(16px,1.5vw,19px);line-height:1.2;letter-spacing:-.025em;font-weight:700;text-wrap:pretty">Charging on an off-peak tariff: the numbers</span>
+          </span>
+        </a>
+        <a data-reveal href="news-article.html?slug=two-engineers-join-dunfermline-team" style="flex:1 1 0;min-height:0;background:#fff;border-radius:22px;padding:10px;display:flex;gap:16px;align-items:stretch;color:#0E1110" style-hover="background:#CBF24C">
+          <span style="width:clamp(104px,26%,150px);flex:none;border-radius:16px;overflow:hidden;background:#E8E8E5;display:block;min-height:96px"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_171154_232b61c1-a40f-4a64-904d-4a8aba9a6f93.png" alt="The installation team" style="width:100%;height:100%;object-fit:cover;display:block"></img></span>
+          <span style="flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:6px 8px 6px 0">
+            <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">Company news · 2 min</span>
+            <span style="font-size:clamp(16px,1.5vw,19px);line-height:1.2;letter-spacing:-.025em;font-weight:700;text-wrap:pretty">Two more engineers join the Dunfermline team</span>
+          </span>
+        </a>
+        <a data-reveal href="news-article.html?slug=new-build-heat-standard-specification" style="flex:1 1 0;min-height:0;background:#fff;border-radius:22px;padding:10px;display:flex;gap:16px;align-items:stretch;color:#0E1110" style-hover="background:#CBF24C">
+          <span style="width:clamp(104px,26%,150px);flex:none;border-radius:16px;overflow:hidden;background:#E8E8E5;display:block;min-height:96px"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3GEBhpJDThOL4J5Wt3PW565Nnud/hf_20260911_081803_5002f371-5b5e-4025-b615-8588fbe19323.png" alt="New-build street" style="width:100%;height:100%;object-fit:cover;display:block"></img></span>
+          <span style="flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:6px 8px 6px 0">
+            <span style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">New build · 5 min</span>
+            <span style="font-size:clamp(16px,1.5vw,19px);line-height:1.2;letter-spacing:-.025em;font-weight:700;text-wrap:pretty">Specifying to the 2026 standard without redesigning the plot</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="quote" style="padding:96px 12px 12px">
+    <div data-reveal style="position:relative;border-radius:30px;overflow:hidden;min-height:440px;display:flex;align-items:center;justify-content:center;text-align:center">
+      <div style="position:absolute;inset:0"><image-slot id="sk2-cta" src="assets/hero-still.png" shape="rect" placeholder="hero home, wide"></image-slot></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,12,10,.5),rgba(8,12,10,.7));pointer-events:none"></div>
+      <div style="position:relative;padding:56px 24px;max-width:680px">
+        <h2 style="margin:0;color:#fff;font-size:clamp(28px,4.4vw,56px);line-height:1.03;letter-spacing:-.04em;font-weight:700">Get a straight answer on what your property needs.</h2>
+        <p style="margin:16px 0 28px;color:rgba(255,255,255,.84);font-size:16px;line-height:1.6">Send us your postcode and we'll come back with the options worth surveying — or tell you if now isn't the time.</p>
+        <form onSubmit="{{ onSubmit }}" style="display:flex;flex-wrap:wrap;gap:8px;background:rgba(255,255,255,.14);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.26);padding:8px;border-radius:999px;max-width:480px;margin:0 auto">
+          <input type="text" placeholder="Your postcode" aria-label="Your postcode" style="flex:1 1 180px;min-width:0;background:transparent;border:0;outline:none;color:#fff;font-family:'Satoshi',sans-serif;font-size:15px;padding:12px 18px"></input>
+          <button type="submit" style="background:#CBF24C;color:#0E1110;border:0;font-family:'Satoshi',sans-serif;font-weight:700;font-size:15px;padding:14px 26px;border-radius:999px;cursor:pointer" style-hover="background:#fff">{{ ctaLabel }}</button>
+        </form>
+        <div style="margin-top:18px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.62)">Or email customerservice@sk-energy.co.uk</div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding:0 12px 12px">
+    <div style="background:#0E1110;border-radius:30px;padding:48px 28px 24px;overflow:hidden">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:32px">
+        <div style="max-width:280px">
+          <img src="assets/sk-logo.svg" alt="SK Energy" style="height:29px;width:123px;flex:none;object-fit:contain;display:block"></img>
+          <p style="margin:14px 0 0;color:rgba(255,255,255,.58);font-size:14px;line-height:1.6">Renewable energy design, installation and maintenance for homes, businesses and developers across central Scotland.</p>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Services</div>
+          <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+            <a href="service.html?slug=residential-solar" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Residential solar</a>
+            <a href="service.html?slug=air-source-heat-pumps" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Air source heat pumps</a>
+            <a href="service.html?slug=ev-charge-points" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">EV charge points</a>
+            <a href="service.html?slug=commercial-solutions" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Commercial solutions</a>
+            <a href="service.html?slug=new-build-services" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">New build services</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Company</div>
+          <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+            <a href="about.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">About us</a>
+            <a href="#process" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Aftercare</a>
+            <a href="work.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Selected work</a>
+            <a href="news.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">News</a>
+            <a href="contact.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Contact</a>
+            <a href="warranty-registration.html" style="color:rgba(255,255,255,.82);font-size:14px" style-hover="color:#CBF24C">Warranty registration</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45)">Get in touch</div>
+          <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+            <span style="color:#fff;font-size:14px">customerservice@sk-energy.co.uk</span>
+            <img src="assets/mcs-w.png" alt="MCS certified" style="height:26px;width:83px;align-self:flex-start;object-fit:contain;display:block;opacity:.8;margin-top:2px"></img>
+            <span style="color:rgba(255,255,255,.58);font-size:14px;line-height:1.55">Suite 2, Abtel Building<br>Pitreavie Business Park<br>Dunfermline, Fife, KY11 8US</span>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:44px;border-top:1px solid rgba(255,255,255,.12);padding-top:18px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center">
+        <span style="color:rgba(255,255,255,.45);font-size:13px">&copy; 2026 SK Energy. All rights reserved.</span>
+        <div style="display:flex;gap:18px">
+          <a href="#quote" style="color:rgba(255,255,255,.45);font-size:13px" style-hover="color:#CBF24C">Privacy policy</a>
+          <a href="#quote" style="color:rgba(255,255,255,.45);font-size:13px" style-hover="color:#CBF24C">Terms</a>
+        </div>
+      </div>
+      <div style="margin-top:26px;color:#fff;font-size:clamp(48px,15vw,230px);line-height:.8;letter-spacing:-.06em;font-weight:900;opacity:.09;white-space:nowrap">SK Energy</div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;heroVideo&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Hero&quot;},&quot;ctaLabel&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Start a project&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;showTestimonials&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    const io = new IntersectionObserver((es) => {
+      es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.06 });
+    requestAnimationFrame(() => {
+      document.querySelectorAll('[data-reveal]').forEach((el, i) => {
+        el.style.transitionDelay = (i % 4) * 70 + 'ms';
+        io.observe(el);
+      });
+      this.setupHero(); this.setupCases(); this.setupQuotes(); this.setupMagic();
+    });
+    this._io = io;
+    this._t = setTimeout(() => document.querySelectorAll('[data-reveal]:not(.in)').forEach((el) => el.classList.add('in')), 1600);
+  }
+
+  setupHero() {
+    const section = document.querySelector('[data-hero]');
+    if (!section) return;
+    const video = section.querySelector('[data-hero-video]');
+    const scenes = [...section.querySelectorAll('[data-scene]')];
+    const bars = [...section.querySelectorAll('[data-rail]')].map((r) => r.firstElementChild);
+    const cta = section.querySelector('[data-hero-cta]');
+    const scrimB = section.querySelector('[data-scrim-b]');
+    const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+
+    // scene windows as fractions of the clip: [enter, hold-start, hold-end, exit]
+    const win = [[0, .03, .22, .27], [.27, .31, .46, .51], [.51, .55, .70, .75], [.75, .79, 1, 1]];
+    const drift = [[-40, 0], [40, 0], [-40, 0], [-40, 0]];
+
+    const render = (p) => {
+      scenes.forEach((el, i) => {
+        const w = win[i];
+        const inT = i === 0 && p < .01 ? 1 : clamp((p - w[0]) / (w[1] - w[0]), 0, 1);
+        const outT = i === 3 ? 0 : clamp((p - w[2]) / (w[3] - w[2]), 0, 1);
+        const dx = drift[i][0] * (1 - inT) + drift[i][0] * -0.6 * outT;
+        const dy = drift[i][1] * (1 - inT) + 30 * outT;
+        const base = el.getAttribute('data-scene') === '2' ? 'translateY(-50%) ' : (el.getAttribute('data-scene') === '3' ? 'translateY(-50%) ' : '');
+        el.style.opacity = (inT * (1 - outT)).toFixed(3);
+        el.style.transform = base + 'translate3d(' + dx.toFixed(1) + 'px,' + dy.toFixed(1) + 'px,0)';
+        if (bars[i]) bars[i].style.width = (clamp((p - w[0]) / (w[2] - w[0]), 0, 1) * 100).toFixed(1) + '%';
+      });
+      if (scrimB) scrimB.style.opacity = String(clamp((p - .25) / .08, 0, 1) * clamp(1 - (p - .49) / .08, 0, 1));
+      if (cta) {
+        const f = clamp((p - .84) / .08, 0, 1);
+        cta.style.opacity = f.toFixed(3);
+        cta.style.pointerEvents = f > .6 ? 'auto' : 'none';
+        cta.style.transform = 'translateY(' + (16 * (1 - f)).toFixed(1) + 'px)';
+      }
+    };
+    render(0);
+
+    if (!video) return;
+    const src = (this.props.heroVideo || video.getAttribute('data-src') || '').trim();
+    if (!src) return;
+    video.src = src;
+    video.muted = true; video.defaultMuted = true; video.volume = 0; video.setAttribute('muted', '');
+    video.playsInline = true; video.loop = true; video.autoplay = true;
+    ['play', 'playing', 'timeupdate', 'volumechange'].forEach((ev) => video.addEventListener(ev, () => { video.muted = true; video.volume = 0; }));
+    video.addEventListener('loadeddata', () => {
+      video.style.opacity = '1';
+      video.playbackRate = 0.9;
+      const pr = video.play();
+      if (pr && pr.catch) pr.catch(() => {});
+    });
+    video.addEventListener('error', () => { video.style.opacity = '0'; });
+
+    const tick = () => {
+      this._raf = requestAnimationFrame(tick);
+      const dur = video.duration;
+      if (!dur || !isFinite(dur)) return;
+      render(clamp(video.currentTime / dur, 0, 1));
+    };
+    this._raf = requestAnimationFrame(tick);
+  }
+
+  setupCases() {
+    const section = document.querySelector('[data-cases]');
+    const track = section && section.querySelector('[data-cases-track]');
+    if (!track) return;
+    const dots = [...section.querySelectorAll('[data-case-dot]')];
+    const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+    const update = () => {
+      const range = section.offsetHeight - window.innerHeight;
+      const p = range > 0 ? clamp(-section.getBoundingClientRect().top / range, 0, 1) : 0;
+      const dist = track.scrollWidth - track.clientWidth;
+      track.style.transform = 'translateX(' + (-p * dist).toFixed(1) + 'px)';
+      const active = Math.round(p * (dots.length - 1));
+      dots.forEach((d, i) => { d.style.background = i === active ? '#CBF24C' : 'rgba(255,255,255,.3)'; });
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    this._casesScroll = update;
+    update();
+  }
+
+  setupQuotes() {
+    const track = document.querySelector('[data-quotes]');
+    if (!track || track.dataset.ready) return;
+    track.dataset.ready = '1';
+    const step = () => track.clientWidth + 14;
+    const prev = document.querySelector('[data-quotes-prev]');
+    const next = document.querySelector('[data-quotes-next]');
+    const sync = () => {
+      if (prev) prev.style.opacity = track.scrollLeft < 8 ? '0.4' : '1';
+      if (next) next.style.opacity = track.scrollLeft + track.clientWidth > track.scrollWidth - 8 ? '0.4' : '1';
+    };
+    if (prev) prev.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
+    if (next) next.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+    track.addEventListener('scroll', sync, { passive: true });
+    sync();
+  }
+
+  setupMagic() {
+    const el = document.querySelector('[data-magic]');
+    if (!el || el.dataset.magicReady) return;
+    el.dataset.magicReady = '1';
+    const words = [];
+    [...el.childNodes].forEach((node) => {
+      if (node.nodeType !== 3 || !node.textContent.trim()) return;
+      const frag = document.createDocumentFragment();
+      node.textContent.split(/(\s+)/).forEach((chunk) => {
+        if (!chunk.trim()) { frag.appendChild(document.createTextNode(chunk)); return; }
+        const s = document.createElement('span');
+        s.textContent = chunk;
+        s.style.opacity = '0.16';
+        s.style.transition = 'opacity .45s cubic-bezier(.2,.7,.2,1)';
+        frag.appendChild(s);
+        words.push(s);
+      });
+      node.parentNode.replaceChild(frag, node);
+    });
+    if (!words.length) return;
+    const update = () => {
+      const r = el.getBoundingClientRect();
+      const vh = window.innerHeight;
+      const p = Math.min(1, Math.max(0, (vh * 0.9 - r.top) / (vh * 0.6)));
+      const reached = p * words.length;
+      words.forEach((w, i) => { w.style.opacity = String(0.16 + 0.84 * Math.min(1, Math.max(0, reached - i))); });
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    this._magicScroll = update;
+    update();
+  }
+
+  componentWillUnmount() {
+    if (this._raf) cancelAnimationFrame(this._raf);
+    if (this._blobUrl) URL.revokeObjectURL(this._blobUrl);
+    ['_heroScroll', '_casesScroll', '_magicScroll'].forEach((k) => {
+      if (this[k]) { window.removeEventListener('scroll', this[k]); window.removeEventListener('resize', this[k]); }
+    });
+    if (this._io) this._io.disconnect();
+    if (this._t) clearTimeout(this._t);
+  }
+
+  renderVals() {
+    return {
+      ctaLabel: this.props.ctaLabel ?? 'Start a project',
+      showTestimonials: this.props.showTestimonials ?? true,
+      onSubmit: (e) => e.preventDefault(),
+    };
+  }
+}
+</script>
+</body>
+</html>

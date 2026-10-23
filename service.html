@@ -16,7 +16,7 @@
   a { color:#0E1110; text-decoration:none; }
   a:hover { color:#46531F; }
 </style>
-<script src="nav-menu.js"></script>
+<script src="nav-menu.js?v=3"></script>
 <script src="cms/config.js"></script>
 <script src="cms/sanity.js"></script>
 </helmet>
@@ -29,7 +29,7 @@
       <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ svc.heroImage.url }}" alt="{{ svc.heroImage.alt }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></img>
       <div style="position:absolute;inset:0;background:linear-gradient(95deg,rgba(8,12,10,.6) 0%,rgba(8,12,10,.28) 45%,rgba(8,12,10,0) 72%),linear-gradient(180deg,rgba(8,12,10,.3) 0%,rgba(8,12,10,0) 22%);pointer-events:none"></div>
 
-      <header style="position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;flex-wrap:wrap">
+      <header style="position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px clamp(16px,2.4vw,22px);flex-wrap:wrap">
         <a href="index.html" aria-label="SK Energy home" style="display:flex;align-items:center"><img src="assets/sk-logo.svg" alt="SK Energy" style="height:38px;width:161px;flex:none;object-fit:contain;display:block"></img></a>
         <nav style="display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.18);padding:6px;border-radius:999px;flex-wrap:wrap">
           <a href="about.html" style="color:rgba(255,255,255,.9);font-size:14px;font-weight:500;padding:10px 20px;border-radius:999px" style-hover="background:#fff;color:#0E1110">About</a>
@@ -71,7 +71,7 @@
     </div>
   </section>
 
-  <section style="max-width:1280px;margin:0 auto;padding:88px 24px 0">
+  <section style="max-width:1280px;margin:0 auto;padding:clamp(64px,9vw,96px) clamp(16px,3vw,24px) 0">
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px 40px;align-items:start">
       <div style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(14,17,16,.16);border-radius:999px;padding:8px 15px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566;justify-self:start">
         <span style="width:6px;height:6px;border-radius:50%;background:#CBF24C;display:block"></span>{{ svc.kicker }}
@@ -80,7 +80,7 @@
     </div>
   </section>
 
-  <section style="max-width:1280px;margin:0 auto;padding:72px 24px 0">
+  <section style="max-width:1280px;margin:0 auto;padding:clamp(64px,9vw,96px) clamp(16px,3vw,24px) 0">
     <h2 style="margin:0;font-size:clamp(28px,3.6vw,50px);line-height:1.05;letter-spacing:-.04em;font-weight:700">{{ svc.benefitsTitle }}</h2>
     <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:32px">
       <sc-for list="{{ benefitPairs }}" as="pr" hint-placeholder-count="2">
@@ -110,7 +110,7 @@
     </div>
   </section>
 
-  <section style="max-width:1280px;margin:0 auto;padding:14px 24px 0">
+  <section style="max-width:1280px;margin:0 auto;padding:14px clamp(16px,3vw,24px) 0">
     <div style="background:#fff;border-radius:30px;padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:12px">
       <div style="padding:clamp(20px,3.4vw,44px);display:flex;flex-direction:column;justify-content:center;gap:16px">
         <div style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6C7566">{{ svc.feature.kicker }}</div>
@@ -122,7 +122,7 @@
   </section>
 
   <sc-if value="{{ hasApplications }}" hint-placeholder-val="{{ false }}">
-  <section style="max-width:1280px;margin:0 auto;padding:72px 24px 0">
+  <section style="max-width:1280px;margin:0 auto;padding:clamp(64px,9vw,96px) clamp(16px,3vw,24px) 0">
     <h2 style="margin:0;font-size:clamp(28px,3.6vw,50px);line-height:1.05;letter-spacing:-.04em;font-weight:700">Where it fits</h2>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px;margin-top:32px">
       <sc-for list="{{ svc.applications }}" as="a">
@@ -135,7 +135,7 @@
   </section>
   </sc-if>
 
-  <section id="process" style="padding:72px 12px 0">
+  <section id="process" style="padding:clamp(64px,9vw,96px) 12px 0">
     <div style="background:#0E1110;border-radius:30px;padding:clamp(28px,4.6vw,60px) clamp(20px,3.6vw,48px)">
       <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px">
         <h2 style="margin:0;color:#fff;font-size:clamp(28px,3.6vw,50px);line-height:1.05;letter-spacing:-.04em;font-weight:700;max-width:560px">{{ svc.processTitle }}</h2>
@@ -153,7 +153,7 @@
     </div>
   </section>
 
-  <section style="max-width:1280px;margin:0 auto;padding:72px 24px 0">
+  <section style="max-width:1280px;margin:0 auto;padding:clamp(64px,9vw,96px) clamp(16px,3vw,24px) 0">
     <h2 style="margin:0;font-size:clamp(26px,3.2vw,44px);line-height:1.05;letter-spacing:-.04em;font-weight:700">Other services</h2>
     <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px">
       <sc-for list="{{ others }}" as="o" hint-placeholder-count="5">

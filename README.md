@@ -6,7 +6,7 @@ Static site, no build step. Vercel serves it as-is.
 |---|---|---|
 | Home | index.html | / |
 | About | about.html | /about |
-| Services | service.html | /service?slug=residential-solar |
+| Services | service.html | /service?slug=solar-pv |
 | Work | work.html | /work |
 | Case study | case-study.html | /case-study?slug=kinross-farmhouse |
 | News | news.html | /news |
